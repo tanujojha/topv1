@@ -1,0 +1,87 @@
+
+.navbar{
+    /* display: flex; */
+    /* justify-content: center; */
+    /* border: 2px solid black; */
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.innernavbar{
+    display: flex;
+    justify-content: space-between;
+    /* border: 2px solid red; */
+    width: 90%;
+}
+
+.logodiv{
+    /* border: 2px solid green; */
+    padding: 0;
+    /* width: 1; */
+}
+
+.logodiv > img{
+    width: 3rem;
+    height: 3rem;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.Dnavlinksdiv{
+    display: flex;
+    /* justify-content: space-around; */
+    gap: 2rem;
+    /* border: 2px solid blue; */
+}
+
+.Dlinksul{
+    list-style: none;
+    /* border: 2px solid yellow; */
+    padding: 0;
+    display: flex;
+    gap: 2rem;
+}
+
+.Dlinksul a{
+    text-decoration: none;
+    color: aliceblue;
+    
+}
+
+
+.Dresumebtndiv{
+    display: flex;
+    align-items: center;
+}
+
+#Dresumebtn{
+    text-transform: capitalize;
+    font-weight: 600;
+    color: aliceblue;
+    border: 2px solid var(--color4);
+}
+
+
+/* ################################################################### */
+
+/* .hamburgerdiv{
+    cursor: pointer;
+}
+
+.hamtop , .hambot, .hammid{
+    width: 2rem;
+    height: 3px;
+    background-color: black;
+}
+
+.hammid{
+    margin-right: 10px;
+}
+
+.hamburgerdiv:hover + hr{
+    transform: rotate(45deg);
+}
+ */

@@ -1,3 +1,21 @@
+:root{
+
+  --color1: #0B2447;
+  --color2: #19376D;
+  --color3: #576CBC;
+  --color4: #A5D7E8;
+
+  --fontNunito: 'Nunito', sans-serif; 
+  --fontRobSlab: 'Roboto Slab', serif;
+
+
+}
+
+
+body{
+  background: var(--color1);
+}
+
 .App {
   text-align: center;
 }

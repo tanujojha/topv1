@@ -1,0 +1,28 @@
+.rgtflt{
+    /* border: 2px solid black; */
+    width: fit-content;
+    position: fixed;
+    bottom: 0;
+    right: 4rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+}
+
+.rgtflt > a{
+    /* border: 2px solid yellow; */
+    writing-mode: vertical-rl;
+    color: var(--color4);
+    text-decoration: none;
+}
+
+.rgtflt > a::after{
+    content: "";
+    width: 1.5px;
+    height: 100px;
+    background-color: white;
+    display: inline-block;
+    margin: 0 auto;
+    margin-top: 20px;
+}

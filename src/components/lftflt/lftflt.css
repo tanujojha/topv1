@@ -1,0 +1,33 @@
+.lftflt{
+    /* border: 2px solid black; */
+    /* display: flex; */
+    width: max-content;
+    position: fixed;
+    bottom: 0;
+    left: 2.5rem;
+}
+
+.iconsul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.iconsul > li {
+    padding: 10px 8px;
+}
+
+.gitlink, .linkedinlink{
+    color: aliceblue;
+}
+
+.iconsul::after{
+    content: "";
+    width: 1.5px;
+    height: 100px;
+    background-color: white;
+    display: block;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
