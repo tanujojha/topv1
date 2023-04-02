@@ -1,0 +1,43 @@
+.skills{
+    /* border: 2px solid red; */
+    width: 60%;
+    color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: flex-start; */
+    /* align-items: flex-start; */
+    /* padding-left: 10px; */
+    margin-top: 40px;
+    /* height: 500px; */
+
+}
+
+.titleskills{
+    text-align: left;
+}
+
+.titleskills::after{
+    content: "";
+    width: 27vw;
+    height: 1.5px;
+    background-color: var(--color4);
+    display: inline-block;
+    margin: 5px 20px;
+}
+
+.innercontskills{
+    /* border: 2px solid white; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 50px;
+}
+
+.innercontskills > img{
+    width: 150px;
+    /* height: 10%; */
+    /* object-fit: cover; */
+    background-color: var(--color2);
+    opacity: 0.7;
+}
+

@@ -1,0 +1,150 @@
+.tindog{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    /* border: 2px solid white; */
+    position: relative;
+    /* padding: 2px 20px; */
+}
+
+.imgdivtindog{
+    max-width: 600px;
+    /* padding: 0; */
+}
+
+.tindogimg{
+    width: 40vw;
+    padding: 40px 0;
+    opacity: 0.7;
+    height: 40vh;
+    /* object-fit: cover; */
+    /* margin: 0; */
+}
+
+.contdivtindog{
+    /* border: 3px solid green; */
+    /* position: relative; */
+}
+
+.titletindog{
+    text-align: right;
+}
+
+.overlaptindog{
+    position: absolute;
+    right: 0;
+    top: 6vw;
+    width: 50%;
+    /* padding: 5px 5px; */
+    /* border: 2px solid yellow; */
+    /* width: 200px; */
+    /* z-index: 1; */
+}
+
+.overlapconttindog{
+    background-color: var(--color2);
+    /* width: 100%; */
+    text-align: right;
+    padding: 20px 15px;
+    /* font-size: 1.3vw; */
+}
+
+.toolstindog{
+    display: flex;
+    justify-content: flex-end;
+    gap: 30px;
+    list-style: none;
+    padding: 0;
+
+}
+
+.tool1tindog{
+
+}
+
+.linkstindog{
+    display: flex;
+    justify-content: flex-end;
+    gap: 30px;
+    list-style: none;
+    padding: 10px 0;
+}
+
+.gitlinktindog{
+
+}
+
+.sitelinktindog{
+
+}
+
+
+@media only screen and (max-width: 750px) {
+    .tindog{
+        width: 100%;
+        /* display: flex; */
+        /* justify-content: space-between; */
+        margin-top: 0;
+        border: none;
+        position: relative;
+        /* padding: 2px 20px; */
+    }
+    
+    .imgdivtindog{
+        /* max-width: 600px; */
+        /* padding: 0; */
+    }
+    
+    .tindogimg{
+        width: 100%;
+        padding: 0 0;
+        opacity: 0.1;
+        /* height: 50vh; */
+        object-fit: cover;
+        /* margin: 0; */
+    }
+
+    .contdivtindog{
+        position: absolute;
+        width: 100%;
+        padding: 15px 10px;
+        /* border: 3px solid green; */
+        /* position: relative; */
+    }
+    
+    .titletindog{
+        text-align: left;
+    }
+    
+    .overlaptindog{
+        position: relative;
+        width: 90%;
+        margin-top: -40px;
+        /* display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-content: flex-start; */
+
+        
+    }
+    
+    .overlapconttindog{
+        text-align: left;
+        width: 100%;
+        background-color: inherit;
+    }
+    
+    .toolstindog{
+        justify-content: flex-start;
+    
+    }
+    
+    .tool1tindog{
+    
+    }
+    
+    .linkstindog{
+        justify-content: flex-start;
+    }
+  }

@@ -1,0 +1,82 @@
+.main{
+    /* border: 2px solid red; */
+    width: 70%;
+    color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: flex-start; */
+    align-items: flex-start;
+    /* padding-left: 10px; */
+    margin-top: 20px;
+}
+
+.maingreetdiv{
+
+}
+
+.maingreet{
+    font-family: var(--fontNunito);
+    font-size: 1.3rem;  
+    margin: 0;
+    color: var(--color4);
+}
+
+.mainnamediv{
+   padding: 0;
+}
+
+.mainname{
+    /* font-size: 5.5em; */
+    font-size: 8vw;
+    margin: 0;
+    padding: 0;
+    /* line-height: 6rem; */
+}
+
+.mainwhatdodiv{
+    /* padding: 0; */
+}
+
+.mainwhatdo{
+    /* font-size: 5rem; */
+    font-size: 7.5vw;
+    margin: 0;
+    padding: 0;
+    opacity: 0.7;
+    text-align: left;
+}
+
+.mainwhoamidiv{
+    padding: 15px 0;
+    margin: 10px 0 0 0;
+}
+
+.mainwhoami, .maincurrent{
+    text-align: left;
+    font-family: var(--fontNunito);
+    padding: 2px 0;
+    margin: 0;
+    /* font-size: larger; */
+}
+
+/* .maincurrent{
+    text-align: left;
+    font-family: var(--fontNunito);
+    padding: 0;
+    margin: 0;
+} */
+
+.mainbtndiv{
+    padding: 20px 0;
+    margin-bottom: 20px;
+}
+
+#maincheckprojbtn{
+    text-transform: capitalize;
+    font-weight: 600;
+    color: aliceblue;
+    border: 2px solid var(--color4);
+    height: 3.5rem;
+    /* width: 30vw; */
+    /* font-size: 1rem; */
+}

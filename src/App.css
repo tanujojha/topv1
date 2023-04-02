@@ -11,6 +11,11 @@
 
 }
 
+.base{
+  display: flex;
+  justify-content: center;
+}
+
 
 body{
   background: var(--color1);

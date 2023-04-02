@@ -48,7 +48,7 @@
 .Dlinksul a{
     text-decoration: none;
     color: aliceblue;
-    
+    font-family: var(--fontRobSlab);    
 }
 
 
@@ -64,24 +64,3 @@
     border: 2px solid var(--color4);
 }
 
-
-/* ################################################################### */
-
-/* .hamburgerdiv{
-    cursor: pointer;
-}
-
-.hamtop , .hambot, .hammid{
-    width: 2rem;
-    height: 3px;
-    background-color: black;
-}
-
-.hammid{
-    margin-right: 10px;
-}
-
-.hamburgerdiv:hover + hr{
-    transform: rotate(45deg);
-}
- */
