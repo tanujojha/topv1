@@ -20,9 +20,9 @@ function About() {
                     <div className='imginnerdivabout'>
                         <img className='profileabout' src="/assets/profile.jpg" alt="tanuj"/>
                     </div>
-                    <div className='effect'>
+                    {/* <div className='effect'>
                         
-                    </div>
+                    </div> */}
                 </div>
             </div>
         </div>

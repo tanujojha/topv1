@@ -1,0 +1,153 @@
+.simongame{
+    width: 100%;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    margin-top: 50px;
+    /* border: 2px solid white; */
+    position: relative;
+    /* padding: 2px 20px; */
+}
+
+.imgdivsimongame{
+    max-width: 600px;
+    /* padding: 0; */
+}
+
+.simongameimg{
+    width: 40vw;
+    padding: 40px 0;
+    opacity: 0.7;
+    height: 40vh;
+    /* object-fit: cover; */
+    /* margin: 0; */
+}
+
+.contdivsimongame{
+    /* border: 3px solid green; */
+    /* position: relative; */
+}
+
+.titlesimongame{
+    text-align: left;
+}
+
+.overlasimongame{
+    position: absolute;
+    left: 0;
+    top: 6vw;
+    width: 50%;
+    /* padding: 5px 5px; */
+    /* border: 2px solid yellow; */
+    /* width: 200px; */
+    /* z-index: 1; */
+}
+
+.overlapcontsimongame{
+    background-color: var(--color2);
+    /* width: 100%; */
+    text-align: left;
+    padding: 20px 15px;
+    /* font-size: 1.3vw; */
+}
+
+.toolssimongame{
+    display: flex;
+    justify-content: flex-start;
+    gap: 30px;
+    list-style: none;
+    padding: 0;
+
+}
+
+.tool1simongame{
+
+}
+
+.linkssimongame{
+    display: flex;
+    justify-content: flex-start;
+    gap: 30px;
+    list-style: none;
+    padding: 10px 0;
+}
+
+.gitlinksimongame{
+
+}
+
+.sitelinksimongame{
+
+}
+
+
+@media only screen and (max-width: 750px) {
+    .simongame{
+        width: 100%;
+        /* display: flex; */
+        /* justify-content: space-between; */
+        margin-top: 50px;
+        border: none;
+        position: relative;
+        /* padding: 2px 20px; */
+    }
+    
+    .imgdivsimongame{
+        /* max-width: 600px; */
+        /* padding: 0; */
+    }
+    
+    .simongameimg{
+        width: 100%;
+        padding: 0 0;
+        opacity: 0.1;
+        /* height: 50vh; */
+        object-fit: cover;
+        /* margin: 0; */
+    }
+
+    .contdivsimongame{
+        position: absolute;
+        width: 100%;
+        padding: 10px 10px;
+        left: 5px;
+        /* border: 3px solid green; */
+        /* position: relative; */
+    }
+    
+    .titlesimongame{
+        text-align: left;
+    }
+    
+    .overlasimongame{
+        position: relative;
+        width: 80%;
+        margin-top: -40px;
+        /* display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-content: flex-start; */
+
+        
+    }
+    
+    .overlapcontsimongame{
+        text-align: left;
+        width: 100%;
+        background-color: inherit;
+        /* mar */
+    }
+    
+    .toolssimongame{
+        justify-content: flex-start;
+    
+    }
+    
+    .tool1simongame{
+    
+    }
+    
+    .linkssimongame{
+        justify-content: flex-start;
+    }
+  }

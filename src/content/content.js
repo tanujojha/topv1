@@ -16,109 +16,87 @@ export const about = {
     button: "Contact"
 }
 
-// export const skills = {
-//     mongodb: {
-//         title: "MongoDB",
-//         img: "/assets/skills/mongodb.png",
-//     },
-//     express: {
-//         title: "Express",
-//         img: "/assets/skills/express.jpg",
-//     },
-//     react: {
-//         title: "React",
-//         img: "/assets/skills/react.png",
-//     },
-//     node: {
-//         title: "Node",
-//         img: "node.jpg"
-//     },
-//     html: {
-//         title: "HTML",
-//         img: "/assets/skills/html.png"
-//     },
-//     css: {
-//         title: "CSS",
-//         img: "/assets/skills/css.jpg"
-//     },
-//     javascript: {
-//         title: "JavaScript",
-//         img: "/assets/skills/javascript.jpg"
-//     },
-//     bootstrap: {
-//         title: "BootStrap",
-//         img: "/assets/skills/bootstrap.png"
-//     },
-//     mui: {
-//         title: "Material UI",
-//         img: "/assets/skills/mui.png"
-//     },
-//     git: {
-//         title: "Git/Github",
-//         img: "/assets/skills/github.png"
-//     },
-//     jquery: {
-//         title: "JQuery",
-//         img: "jquery.jpg"
-//     }
-
-// }
 
 export const skills = [
     {
         "title": "MongoDB",
         "img": "/assets/skills/mongodb.png",
+        "link": "https://www.mongodb.com/",
     },
     {
         "title": "Express",
-        "img": "/assets/skills/express.jpg",
+        "img": "/assets/skills/express.png",
+        "link": "https://expressjs.com/",
     },
     {
         "title": "React",
-        "img": "/assets/skills/react.png",
+        "img": "/assets/skills/react1.png",
+        "link": "https://react.dev/",
     },
     {
         "title": "Node",
-        "img": "/assets/skills/node.jpg"
+        "img": "/assets/skills/node.png",
+        "link": "https://nodejs.org/",
     },
     {
         "title": "HTML",
-        "img": "/assets/skills/html.png"
+        "img": "/assets/skills/html.png",
+        "link": "https://developer.mozilla.org/en-US/docs/Web/HTML",
     },
     {
         "title": "CSS",
-        "img": "/assets/skills/css.jpg"
+        "img": "/assets/skills/css.png",
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS",
     },
     {
         "title": "JavaScript",
-        "img": "/assets/skills/javascript.jpg"
+        "img": "/assets/skills/js.png",
+        "link": "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
     },
     {
         "title": "BootStrap",
-        "img": "/assets/skills/bootstrap.png"
+        "img": "/assets/skills/bootstrap.png",
+        "link": "https://getbootstrap.com/",
     },
     {
         "title": "Material UI",
-        "img": "/assets/skills/mui.png"
+        "img": "/assets/skills/mui.png",
+        "link": "https://mui.com/",
     },
     {
-        "title": "Git/Github",
-        "img": "/assets/skills/github.png"
+        "title": "Git",
+        "img": "/assets/skills/git.png",
+        "link": "https://git-scm.com/",
+    },
+    {
+        "title": "Github",
+        "img": "/assets/skills/github.png",
+        "link": "https://github.com/",
     },
     {
         "title": "JQuery",
-        "img": "/assets/skills/jquery.jpg"
+        "img": "/assets/skills/jquery.png",
+        "link": "https://jquery.com/",
+    },
+    {
+        "title": "Mongoose",
+        "img": "/assets/skills/mongoose1.png",
+        "link": "https://mongoose.com/",
     }
 
 ]
 
+
+
 export const projects = {
     artsocials: {
         img: "/assets/projects/artsocials.png",
-        desc: `ArtSocials is a flexible Content sharing Social Media Website, where users are able to post their content of any kind such as text, photo or a video, and can look at their friends post and have the options to react and comment.`,
+        desc: `ArtSocials is a flexible Content sharing Website, where users are able to post their content of any kind such as text, photo or a video, and can look at their friends post and have the options to react and comment.`,
         tool1: "MERN",
         tool2: "JWT",
         tool3: "Cookie-Parser",
+        github: "https://github.com/tanujojha/artsocials",
+        site: "https://tanujojha.github.io/artsocials"
     },
     chatapp: {
         desc: `A quirky chat application with a login register functionality, where users can interact with other users. It also has option to send images.`,
@@ -128,10 +106,13 @@ export const projects = {
         tool4: "Socket.io"
     },
     keeperapp: {
+        img: "/assets/projects/tindog.png",
         desc: "Keeper App is a note-taking service like Google Keep which allows users to add, update and delete notes.",
         tool1: "ReactJS",
         tool2: "CSS",
-        tool3: "BootStrap"
+        tool3: "BootStrap",
+        github: "https://github.com/tanujojha/tindog",
+        site: "https://tanujojha.github.io/tindog"
     },
     tindog: {
         img: "/assets/projects/tindog.png",
@@ -143,15 +124,21 @@ export const projects = {
         site: "https://tanujojha.github.io/tindog"
     },
     simongame: {
+        img: "/assets/projects/drumkit.png",
         desc: "A game in which the player has to remember the order of the colors as computer and click the colors in the same order.",
         tool1: "HTML",
         tool2: "CSS",
-        tool3: "JQuery"
+        tool3: "JQuery",
+        github: "https://github.com/tanujojha/tindog",
+        site: "https://tanujojha.github.io/tindog"
     },
     drumkit: {
+        img: "/assets/projects/drumkit.png",
         desc: "DrumKit is a game which includes different instruments form a typical Drum kit such as base, symbols etc. One can here different sounds by clicking on the instruments.",
         tool1: "HTML",
         tool2: "CSS",
-        tool3: "BootStrap"
+        tool3: "BootStrap",
+        github: "https://github.com/tanujojha/tindog",
+        site: "https://tanujojha.github.io/tindog"
     }
 }

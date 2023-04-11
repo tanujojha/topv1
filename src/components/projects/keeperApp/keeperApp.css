@@ -1,4 +1,4 @@
-.drumkit{
+.keeperapp{
     width: 100%;
     display: flex;
     justify-content: space-between;
@@ -8,12 +8,12 @@
     /* padding: 2px 20px; */
 }
 
-.imgdivdrumkit{
+.imgdivkeeperapp{
     max-width: 600px;
     /* padding: 0; */
 }
 
-.drumkitimg{
+.keeperappimg{
     width: 40vw;
     padding: 40px 0;
     opacity: 0.7;
@@ -22,16 +22,16 @@
     /* margin: 0; */
 }
 
-.contdivdrumkit{
+.contdivkeeperapp{
     /* border: 3px solid green; */
     /* position: relative; */
 }
 
-.titledrumkit{
+.titlekeeperapp{
     text-align: right;
 }
 
-.overlapdrumkit{
+.overlapkeeperapp{
     position: absolute;
     right: 0;
     top: 6vw;
@@ -42,7 +42,7 @@
     /* z-index: 1; */
 }
 
-.overlapcontdrumkit{
+.overlapcontkeeperapp{
     background-color: var(--color2);
     /* width: 100%; */
     text-align: right;
@@ -50,7 +50,7 @@
     /* font-size: 1.3vw; */
 }
 
-.toolsdrumkit{
+.toolskeeperapp{
     display: flex;
     justify-content: flex-end;
     gap: 30px;
@@ -59,11 +59,11 @@
 
 }
 
-.tool1drumkit{
+.tool1keeperapp{
 
 }
 
-.linksdrumkit{
+.linkskeeperapp{
     display: flex;
     justify-content: flex-end;
     gap: 30px;
@@ -71,32 +71,32 @@
     padding: 10px 0;
 }
 
-.gitlinkdrumkit{
+.gitlinkkeeperapp{
 
 }
 
-.sitelinkdrumkit{
+.sitelinkkeeperapp{
 
 }
 
 
 @media only screen and (max-width: 750px) {
-    .drumkit{
+    .keeperapp{
         width: 100%;
         /* display: flex; */
         /* justify-content: space-between; */
-        /* margin-top: 50; */
+        /* margin-top: 0; */
         border: none;
         position: relative;
         /* padding: 2px 20px; */
     }
     
-    .imgdivdrumkit{
+    .imgdivkeeperapp{
         /* max-width: 600px; */
         /* padding: 0; */
     }
     
-    .drumkitimg{
+    .keeperappimg{
         width: 100%;
         padding: 0 0;
         opacity: 0.1;
@@ -105,19 +105,19 @@
         /* margin: 0; */
     }
 
-    .contdivdrumkit{
+    .contdivkeeperapp{
         position: absolute;
         width: 100%;
-        padding: 0 10px;
+        padding: 15px 10px;
         /* border: 3px solid green; */
         /* position: relative; */
     }
     
-    .titledrumkit{
+    .titlekeeperapp{
         text-align: left;
     }
     
-    .overlapdrumkit{
+    .overlapkeeperapp{
         position: relative;
         width: 90%;
         margin-top: -40px;
@@ -129,22 +129,22 @@
         
     }
     
-    .overlapcontdrumkit{
+    .overlapcontkeeperapp{
         text-align: left;
         width: 100%;
         background-color: inherit;
     }
     
-    .toolsdrumkit{
+    .toolskeeperapp{
         justify-content: flex-start;
     
     }
     
-    .tool1drumkit{
+    .tool1keeperapp{
     
     }
     
-    .linksdrumkit{
+    .linkskeeperapp{
         justify-content: flex-start;
     }
   }

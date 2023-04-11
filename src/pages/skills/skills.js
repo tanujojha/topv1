@@ -2,6 +2,20 @@ import React from 'react';
 import "./skills.css";
 import {skills} from "../../content/content";
 
+
+
+function SkillImg ({skill}){
+    return (
+        <div className='skillimgmaindiv'>
+            <span className='tooltiptext'>{skill.title}</span>
+            <a className='skillimagelink' rel='noreferrer' href={skill.link} target='_blank'>
+                <img className='skillimage' src={skill.img} alt={skill.title}/>
+            </a>
+        </div>
+    )
+}
+
+
 function Skills() {
 
     // console.log(skills[0]);
@@ -9,9 +23,9 @@ function Skills() {
     <div className='base'>
         <div className='skills'>
             <h2 className='titleskills'>Skills</h2>
-            <div className='innercontskills'>
+            <div className='innerskills'>
                 {
-                    skills.map((skill)=> <img src={skill.img} alt={skill.title}/>)
+                    skills.map((skill)=> <SkillImg skill={skill}/>)
                 }
             </div>
         </div>

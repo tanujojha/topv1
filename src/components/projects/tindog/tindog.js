@@ -6,8 +6,8 @@ import { ReactComponent as Logo } from "../../../icons/github.svg"
 function Tindog() {
   return (
     <div className='tindog'>
-        <div className='imgdivtindog'>
-            <a href={projects.tindog.site} target='_blank'><img className='tindogimg' src={projects.tindog.img} alt="tindog"/></a>
+        <div className='imgdivtindog'> 
+            <a rel='noreferrer' href={projects.tindog.site} target='_blank'><img className='tindogimg' src={projects.tindog.img} alt="tindog"/></a>
         </div>
         <div className='contdivtindog'>
             <h2 className='titletindog'>Tindog</h2>
