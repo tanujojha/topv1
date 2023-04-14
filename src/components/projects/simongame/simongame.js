@@ -1,7 +1,8 @@
 import React from 'react';
 import "./simongame.css"
 import { projects } from '../../../content/content';
-import { ReactComponent as Logo } from "../../../icons/github.svg"
+import { ReactComponent as GithubLogo } from "../../../icons/github.svg";
+import { ReactComponent as GotositeLogo } from "../../../icons/gotosite.svg";
 
 function Simongame() {
   return (
@@ -19,8 +20,8 @@ function Simongame() {
                     <li className='tool3simongame'>{projects.simongame.tool3}</li>
                 </ul>
                 <ul className='linkssimongame'>
-                    <li className='gitlinksimongame'><a href={projects.simongame.github}><Logo/></a></li>
-                    <li className='sitelinksimongame'><a href={projects.simongame.site}><Logo/></a></li>
+                    <li className='gitlinksimongame'><a href={projects.simongame.github}><GithubLogo/></a></li>
+                    <li className='sitelinksimongame'><a href={projects.simongame.site}><GotositeLogo/></a></li>
                 </ul>
             </div>
         </div>

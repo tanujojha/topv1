@@ -1,7 +1,8 @@
 import React from 'react';
 import "./keeperApp.css";
 import { projects } from '../../../content/content';
-import { ReactComponent as Logo } from "../../../icons/github.svg"
+import { ReactComponent as GithubLogo } from "../../../icons/github.svg";
+import { ReactComponent as GotositeLogo } from "../../../icons/gotosite.svg";
 
 function KeeperApp() {
   return (
@@ -19,8 +20,8 @@ function KeeperApp() {
                     <li className='tool3keeperapp'>{projects.keeperapp.tool3}</li>
                 </ul>
                 <ul className='linkskeeperapp'>
-                    <li className='gitlinkkeeperapp'><a href={projects.keeperapp.github}><Logo/></a></li>
-                    <li className='sitelinkkeeperapp'><a href={projects.keeperapp.site}><Logo/></a></li>
+                    <li className='gitlinkkeeperapp'><a href={projects.keeperapp.github}><GithubLogo/></a></li>
+                    <li className='sitelinkkeeperapp'><a href={projects.keeperapp.site}><GotositeLogo/></a></li>
                 </ul>
             </div>
         </div>

@@ -1,8 +1,7 @@
 import React from 'react';
 import "./skills.css";
 import {skills} from "../../content/content";
-
-
+import Fade from 'react-reveal/Fade';
 
 function SkillImg ({skill}){
     return (
@@ -18,18 +17,19 @@ function SkillImg ({skill}){
 
 function Skills() {
 
-    // console.log(skills[0]);
   return (
-    <div className='base'>
-        <div className='skills'>
-            <h2 className='titleskills'>Skills</h2>
-            <div className='innerskills'>
-                {
-                    skills.map((skill)=> <SkillImg skill={skill}/>)
-                }
+    <Fade bottom delay={100}>
+        <div className='base'>
+            <div className='skills'>
+                <h2 className='titleskills'>Skills</h2>
+                <div className='innerskills'>
+                    {
+                        skills.map((skill)=> <SkillImg skill={skill}/>)
+                    }
+                </div>
             </div>
         </div>
-    </div>
+    </Fade>
   )
 }
 

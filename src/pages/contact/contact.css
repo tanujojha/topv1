@@ -1,0 +1,77 @@
+.contact{
+    /* border: 2px solid red; */
+    width: 80vw;
+    color: white;
+    margin-top: 50px;
+}
+
+.swncontact{
+    font-weight: 600;
+    font-size: 20px;
+    color: var(--color4);
+    margin-right: 30%;
+    margin-bottom: 0;
+}
+
+.gintcontact{
+    margin-top: 10px;
+    /* font-size: 10vw; */
+    font-size: 4vw;
+}
+
+.contact > p{
+    margin: 8px auto;
+    /* font-size: large; */
+    
+}
+
+.fstpcontact{
+
+}
+
+.scndpcontact{
+
+}
+
+.thrdpcontact{
+
+}
+
+#sayhellocontact{
+    text-transform: capitalize;
+    font-size: 17px;
+    margin-top: 30px;
+ 
+}
+
+
+@media only screen and (max-width: 750px){
+    .swncontact{
+        text-align: left;
+    }
+
+    .gintcontact{
+        /* font-size: 10vw; */
+        font-size: 7vw;
+    }
+
+    .contact > p{
+        margin: 8px auto;
+    }
+}
+
+
+
+@media only screen and (max-width: 500px){
+
+    .swncontact{
+        font-size: 15px;
+    }
+
+    .gintcontact{
+        /* font-size: 10vw; */
+        font-size: 10vw;
+    }
+
+    
+}

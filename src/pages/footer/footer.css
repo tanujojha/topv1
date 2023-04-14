@@ -1,29 +1,43 @@
 .footer{
-    
+    /* border: 2px solid red; */
+    margin-top: 60px;
+    width: 100%;
+    color: white;
 }
 
 .ficonsdiv{
-
+    /* font-size: 20px; */
 }
 
 .ficonsul{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+    gap: 20px;
 
 }
 
-.fgitlink{
-
+.fgitlink, .flinkedilink{
+    color: rgb(170, 177, 183);
 }
 
 .flinkedilink{
 
 }
 
-.fcontentdiv{
-
+.fcontentdiv > *{
+    margin: 8px auto;
 }
 
 .fmadeby{
+    font-size: 15px;
+}
 
+.femail{
+    font-size: 15px;
+    cursor: pointer;
+    color: var(--color4);
 }
 
 .fcopr{

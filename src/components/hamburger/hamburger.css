@@ -25,7 +25,7 @@ body{
     z-index: 2;
     position: absolute;
     top: 1.5rem;
-    right: 3rem;
+    right: 2rem;
     height: 40px;
     width: 40px;
     padding: 0.6rem;
@@ -97,16 +97,18 @@ TOP AT -10PX ABOVE THE MIDDLE ONE AND BOTTOM ONE IS 10PX BELOW THE MIDDLE: */
     position: fixed;
     top: 0;
     right: 0;
-  
-  /* APPLYING TRANSITION TO THE MENU :  */
-  
+    
+    /* APPLYING TRANSITION TO THE MENU :  */
+    
     transition: all 0.4s ease;
 }
 
-/* IF THE TOGGLER IS CHECKED, THEN INCREASE THE WIDTH OF THE MENU TO 30% , CREATING A SMOOTH EFFECT :  */
+/* IF THE TOGGLER IS CHECKED, THEN INCREASE THE WIDTH OF THE MENU TO 70% , CREATING A SMOOTH EFFECT :  */
 
 .toggler:checked ~ .menu{
-    width: 40%;
+    width: 70%;
+    
+
 }
 
 

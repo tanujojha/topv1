@@ -18,7 +18,7 @@
 }
 
 .gitlink, .linkedinlink{
-    color: aliceblue;
+    color: rgb(170, 177, 183);
 }
 
 .iconsul::after{

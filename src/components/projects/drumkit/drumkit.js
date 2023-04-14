@@ -1,7 +1,8 @@
 import React from 'react';
 import "./drumkit.css"
 import { projects } from '../../../content/content';
-import { ReactComponent as Logo } from "../../../icons/github.svg"
+import { ReactComponent as GithubLogo } from "../../../icons/github.svg";
+import { ReactComponent as GotositeLogo } from "../../../icons/gotosite.svg";
 
 function Drumkit() {
   return (
@@ -19,8 +20,8 @@ function Drumkit() {
                     <li className='tool3drumkit'>{projects.drumkit.tool3}</li>
                 </ul>
                 <ul className='linksdrumkit'>
-                    <li className='gitlinkdrumkit'><a href={projects.drumkit.github}><Logo/></a></li>
-                    <li className='sitelinkdrumkit'><a href={projects.drumkit.site}><Logo/></a></li>
+                    <li className='gitlinkdrumkit'><a href={projects.drumkit.github}><GithubLogo/></a></li>
+                    <li className='sitelinkdrumkit'><a href={projects.drumkit.site}><GotositeLogo/></a></li>
                 </ul>
             </div>
         </div>

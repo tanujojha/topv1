@@ -1,10 +1,16 @@
 import React from 'react';
 import "./tindog.css"
 import { projects } from '../../../content/content';
-import { ReactComponent as Logo } from "../../../icons/github.svg"
+import { ReactComponent as GithubLogo } from "../../../icons/github.svg";
+import { ReactComponent as GotositeLogo } from "../../../icons/gotosite.svg";
+
+
+
 
 function Tindog() {
+    
   return (
+    
     <div className='tindog'>
         <div className='imgdivtindog'> 
             <a rel='noreferrer' href={projects.tindog.site} target='_blank'><img className='tindogimg' src={projects.tindog.img} alt="tindog"/></a>
@@ -19,12 +25,13 @@ function Tindog() {
                     <li className='tool3tindog'>{projects.tindog.tool3}</li>
                 </ul>
                 <ul className='linkstindog'>
-                    <li className='gitlinktindog'><a href={projects.tindog.github}><Logo/></a></li>
-                    <li className='sitelinktindog'><a href={projects.tindog.site}><Logo/></a></li>
+                    <li className='gitlinktindog'><a href={projects.tindog.github}><GithubLogo/></a></li>
+                    <li className='sitelinktindog'><a href={projects.tindog.site}><GotositeLogo/></a></li>
                 </ul>
             </div>
         </div>
     </div>
+    
   )
 }
 

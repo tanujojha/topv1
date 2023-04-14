@@ -1,7 +1,8 @@
 import React from 'react';
 import "./artsocials.css"
 import { projects } from '../../../content/content';
-import { ReactComponent as Logo } from "../../../icons/github.svg" 
+import { ReactComponent as GithubLogo } from "../../../icons/github.svg";
+import { ReactComponent as GotositeLogo } from "../../../icons/gotosite.svg";
 
 function Artsocials() {
   return (
@@ -19,8 +20,8 @@ function Artsocials() {
                     <li className='tool3artsls'>{projects.artsocials.tool3}</li>
                 </ul>
                 <ul className='linksartsls'>
-                    <li className='gitlinkartsls'><a href={projects.artsocials.github}><Logo/></a></li>
-                    <li className='sitelinkartsls'><a href={projects.artsocials.site}><Logo/></a></li>
+                    <li className='gitlinkartsls'><a href={projects.artsocials.github}><GithubLogo/></a></li>
+                    <li className='sitelinkartsls'><a href={projects.artsocials.site}><GotositeLogo/></a></li>
                 </ul>
             </div>
         </div>
