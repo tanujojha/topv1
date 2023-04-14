@@ -2,26 +2,34 @@
     /* border: 2px solid black; */
     width: fit-content;
     position: fixed;
-    bottom: 0;
+    bottom: -5px;
     right: 2.5rem;
     display: flex;
     flex-direction: column;
     align-items: center;
+    z-index: 1;
     /* justify-content: center; */
 }
 
 .rgtflt > a{
     /* border: 2px solid yellow; */
     writing-mode: vertical-rl;
-    color: var(--color4);
+    color: var(--light-slate);
     text-decoration: none;
+    font-family: var(--fontMono);
+    transition: var(--transition);
+}
+
+.rgtflt > a:hover {
+    color: var(--colorGreen);
+    translate: 0 -5px;
 }
 
 .rgtflt > a::after{
     content: "";
     width: 1.5px;
     height: 100px;
-    background-color: white;
+    background-color: var(--light-slate);
     display: inline-block;
     margin: 0 auto;
     margin-top: 20px;

@@ -1,7 +1,6 @@
 .projects{
      /* border: 2px solid red; */
      width: 70%;
-     color: aliceblue;
      display: flex;
      flex-direction: column;
      /* justify-content: flex-start; */
@@ -18,4 +17,26 @@
     background-color: var(--color4);
     display: inline-block;
     margin: 5px 20px;
+}
+
+.titleprojects{
+    text-align: left;
+    color: var(--lightestSlate);
+    font-family: var(--fontSans);
+    font-size: clamp(25px, 3vw, 30px);
+}
+
+
+
+
+@media only screen and (max-width: 750px) {
+    .projects{
+        width: 95%;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .titleprojects::after{
+       width: 10rem;
+    }
+    
 }

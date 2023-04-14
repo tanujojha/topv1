@@ -50,10 +50,17 @@
     gap: 2rem;
 }
 
+
 .Dlinksul a{
     text-decoration: none;
-    color: aliceblue;
-    font-family: var(--fontRobSlab);    
+    color: var(--lightestSlate);
+    font-family: var(--fontMono);
+    transition: var(--transition);    
+}
+
+.Dlinksul a:hover{
+    color: var(--colorGreen);
+        
 }
 
 
@@ -64,9 +71,14 @@
 
 #Dresumebtn{
     text-transform: capitalize;
-    font-weight: 600;
-    color: aliceblue;
-    border: 2px solid var(--color4);
+    font-family: var(--fontMono);
+    color: var(--colorGreen);
+    border: 1.5px solid var(--colorGreen);
+    transition: var(--transition);  
+}
+
+#Dresumebtn:hover{
+    background: var(--colorGreenTint);
 }
 
 .Mnavlinksdiv{

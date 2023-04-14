@@ -10,7 +10,7 @@
 
 .imgdivtindog{
     max-width: 600px;
-    /* padding: 0; */
+    border-radius: 10px;
 }
 
 .tindogimg{
@@ -18,8 +18,14 @@
     padding: 40px 0;
     opacity: 0.7;
     height: 40vh;
+    border-radius: 10px;
+    transition: var(--transition);
     /* object-fit: cover; */
     /* margin: 0; */
+}
+
+.tindogimg:hover{
+    opacity: 1;
 }
 
 .contdivtindog{
@@ -29,6 +35,8 @@
 
 .titletindog{
     text-align: right;
+    color: var(--lightestSlate);
+    font-family: var(--fontSans);
 }
 
 .overlaptindog{
@@ -36,18 +44,17 @@
     right: 0;
     top: 6vw;
     width: 50%;
-    /* padding: 5px 5px; */
-    /* border: 2px solid yellow; */
-    /* width: 200px; */
-    /* z-index: 1; */
+
 }
 
 .overlapconttindog{
-    background-color: var(--color2);
-    /* width: 100%; */
+    background-color: var(--colorLightNavy);
+    border-radius: 5px;
+    color: var(--light-slate);
+    font-family: var(--fontNunito);
     text-align: right;
     padding: 20px 15px;
-    /* font-size: 1.3vw; */
+    /* font-size: large; */
 }
 
 .toolstindog{
@@ -56,6 +63,8 @@
     gap: 30px;
     list-style: none;
     padding: 0;
+    color: var(--light-slate);
+    font-family: var(--fontMono);
 
 }
 
@@ -69,10 +78,21 @@
     gap: 30px;
     list-style: none;
     padding: 10px 0;
+    
+}
+
+.linkstindog a{
+    color: var(--light-slate);
+    transition: var(--transition);
+}
+
+.linkstindog a:hover{
+    color: var(--colorGreen);
+    
 }
 
 .gitlinktindog{
-
+   
 }
 
 .sitelinktindog{
@@ -100,7 +120,7 @@
         width: 100%;
         padding: 0 0;
         opacity: 0.1;
-        /* height: 50vh; */
+        height: 45vh;
         object-fit: cover;
         /* margin: 0; */
     }
@@ -133,6 +153,7 @@
         text-align: left;
         width: 100%;
         background-color: inherit;
+        font-size: large;
     }
     
     .toolstindog{

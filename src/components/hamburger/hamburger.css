@@ -46,7 +46,7 @@ TOP AT -10PX ABOVE THE MIDDLE ONE AND BOTTOM ONE IS 10PX BELOW THE MIDDLE: */
     content: '';
     position: absolute;
     top: -10px;
-    background: white;
+    background: var(--colorGreen);
     width: 100%;
     height: 2px;
     transition: all  0.4s ease;
@@ -65,7 +65,7 @@ TOP AT -10PX ABOVE THE MIDDLE ONE AND BOTTOM ONE IS 10PX BELOW THE MIDDLE: */
 .toggler:checked + .hamburger > div::before{
     top: 0;
     transform: rotate(45deg);
-    background: black;
+    /* background: black; */
 }
 
 /* AND ROTATING THE TOP AND BOTTOM LINES :  */
@@ -73,7 +73,7 @@ TOP AT -10PX ABOVE THE MIDDLE ONE AND BOTTOM ONE IS 10PX BELOW THE MIDDLE: */
 .toggler:checked + .hamburger > div::after{
     top: 0;
     transform: rotate(135deg);
-    background: black;
+    /* background: black; */
 }
 
 
@@ -110,8 +110,8 @@ TOP AT -10PX ABOVE THE MIDDLE ONE AND BOTTOM ONE IS 10PX BELOW THE MIDDLE: */
     display: flex;
     flex-direction: column;
     position: fixed;
-    top: 80px;
-    right: 4.2rem;
+    top: 150px;
+    right: 5rem;
     padding-left: 0;
   
   /* HIDDEN INITIALLY  :  */
@@ -126,10 +126,10 @@ TOP AT -10PX ABOVE THE MIDDLE ONE AND BOTTOM ONE IS 10PX BELOW THE MIDDLE: */
 }
 
 .menu > div > ul > li > a{
-    color: white;
+    color: var(--lightestSlate);
+    font-size: larger;
     text-decoration: none;
-    font-size: 1.2rem;
-    font-family: var(--fontRobSlab);
+    font-family: var(--fontMono);
 }
 
 /* WHEN THE TOGGLER IS CHECKED, CHANGE THE VISIBILITY TO VISIBLE :  */
@@ -146,8 +146,9 @@ TOP AT -10PX ABOVE THE MIDDLE ONE AND BOTTOM ONE IS 10PX BELOW THE MIDDLE: */
 
 #Mresumebtn{
     text-transform: capitalize;
-    font-weight: 600;
-    color: aliceblue;
-    border: 2px solid var(--color4);
+    /* font-weight: 600; */
+    color: var(--colorGreen);
+    border: 1.5px solid var(--colorGreen);
     margin-top: 2rem;
 }
+

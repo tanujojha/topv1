@@ -19,8 +19,12 @@
     padding: 40px 0;
     opacity: 0.7;
     height: 40vh;
-    /* object-fit: cover; */
-    /* margin: 0; */
+    border-radius: 10px;
+    transition: var(--transition);
+}
+
+.simongameimg:hover{
+    opacity: 1;
 }
 
 .contdivsimongame{
@@ -30,6 +34,8 @@
 
 .titlesimongame{
     text-align: left;
+    color: var(--lightestSlate);
+    font-family: var(--fontSans);
 }
 
 .overlasimongame{
@@ -44,11 +50,12 @@
 }
 
 .overlapcontsimongame{
-    background-color: var(--color2);
-    /* width: 100%; */
+    background-color: var(--colorLightNavy);
+    border-radius: 5px;
+    color: var(--light-slate);
+    font-family: var(--fontNunito);
     text-align: left;
     padding: 20px 15px;
-    /* font-size: 1.3vw; */
 }
 
 .toolssimongame{
@@ -57,7 +64,8 @@
     gap: 30px;
     list-style: none;
     padding: 0;
-
+    color: var(--light-slate);
+    font-family: var(--fontMono);
 }
 
 .tool1simongame{
@@ -70,6 +78,16 @@
     gap: 30px;
     list-style: none;
     padding: 10px 0;
+}
+
+.linkssimongame a{
+    color: var(--light-slate);
+    transition: var(--transition);
+}
+
+.linkssimongame a:hover{
+    color: var(--colorGreen);
+    
 }
 
 .gitlinksimongame{
@@ -135,6 +153,7 @@
         text-align: left;
         width: 100%;
         background-color: inherit;
+        font-size: large;
         /* mar */
     }
     

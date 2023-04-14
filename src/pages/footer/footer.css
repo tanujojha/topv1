@@ -18,12 +18,10 @@
 
 }
 
+
 .fgitlink, .flinkedilink{
-    color: rgb(170, 177, 183);
-}
-
-.flinkedilink{
-
+    color: var(--light-slate);
+    transition: var(--transition);
 }
 
 .fcontentdiv > *{
@@ -32,14 +30,20 @@
 
 .fmadeby{
     font-size: 15px;
+    font-family: var(--fontMono);
+    color: var(--light-slate);
 }
 
 .femail{
     font-size: 15px;
     cursor: pointer;
     color: var(--color4);
+    font-family: var(--fontMono);
 }
 
 .fcopr{
-
+    font-family: var(--fontMono);
+    font-size: 12px;
+    font-weight: normal;
+    color: var(--light-slate);
 }

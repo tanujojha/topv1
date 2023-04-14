@@ -1,5 +1,6 @@
 import React from 'react';
 import './main.css';
+import styles from "../../styles.module.css"
 import {main} from "../../content/content"
 import { Button, useMediaQuery } from '@mui/material';
 import Fade from 'react-reveal/Fade';
@@ -15,10 +16,10 @@ function Main() {
         <div className='base'>
             <div className='main'>
                 <div className='maingreetdiv'>
-                    <h4 className='maingreet'>{main.greet}</h4>
+                    <h4 className={`maingreet`}>{main.greet}</h4>
                 </div>
                 <div className='mainnamediv'>
-                    <h1 className='mainname'>{main.name}</h1>
+                    <h1 className={`mainname`}>{main.name}</h1>
                 </div>
                 <div className='mainwhatdodiv'>
                     <h2 className='mainwhatdo'>{main.whatdo}</h2>

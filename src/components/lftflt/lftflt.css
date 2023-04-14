@@ -16,20 +16,35 @@
 
 .iconsul li {
     padding: 10px 8px;
+    transition: var(--transition);
     
 }
 
+.iconsul li:hover{
+    translate: 0 -5px;
+}
+
+
+
 .gitlink, .linkedinlink{
     /* color: rgb(170, 177, 183); */
-    color: rgb(170, 177, 183);
+    color: var(--light-slate);
+    transition: var(--transition);
     
 }
+
+.gitlink:hover, .linkedinlink:hover{
+    /* color: rgb(170, 177, 183); */
+    color: var(--colorGreen);
+        
+}
+
 
 .iconsul::after{
     content: "";
     width: 1.5px;
     height: 100px;
-    background-color: white;
+    background-color: var(--light-slate);
     display: block;
     margin: 0 auto;
     margin-top: 20px;

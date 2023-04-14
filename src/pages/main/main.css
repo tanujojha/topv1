@@ -3,7 +3,7 @@
     width: 70%;
     /* color: aliceblue; */
     /* color: rgb(170, 177, 183); */
-    color: hsl(225.7, 70%, 88.2%);
+    /* color: hsl(225.7, 70%, 88.2%); */
     display: flex;
     flex-direction: column;
     /* justify-content: flex-start; */
@@ -17,8 +17,9 @@
 }
 
 .maingreet{
-    font-family: var(--fontNunito);
-    font-size: 1.3rem;  
+    /* font-family: var(--fontNunito); */
+    font-family: var(--fontMono);
+    font-size: 1.2rem;  
     margin: 0;
     color: var(--color4);
 }
@@ -30,21 +31,23 @@
 .mainname{
     /* font-size: 5.5em; */
     font-size: 8vw;
+    font-family: var(--fontSans);
+    /* color: var(--lightestSlate); */
+    color: var(--lightestSlate);
     margin: 0;
     padding: 0;
     /* line-height: 6rem; */
 }
 
-.mainwhatdodiv{
-    /* padding: 0; */
-}
 
 .mainwhatdo{
     /* font-size: 5rem; */
     font-size: 7.5vw;
+    font-family: var(--fontSans);
+    color: var(--slate);
     margin: 0;
     padding: 0;
-    opacity: 0.7;
+    /* opacity: 0.7; */
     text-align: left;
 }
 
@@ -56,17 +59,12 @@
 .mainwhoami, .maincurrent{
     text-align: left;
     font-family: var(--fontNunito);
+    color: var(--lightestSlate);
     padding: 2px 0;
     margin: 0;
-    /* font-size: larger; */
+    font-size: larger;
 }
 
-/* .maincurrent{
-    text-align: left;
-    font-family: var(--fontNunito);
-    padding: 0;
-    margin: 0;
-} */
 
 .mainbtndiv{
     padding: 20px 0;
@@ -77,16 +75,59 @@
     text-transform: capitalize;
     font-weight: 600;
     /* color: aliceblue; */
-    color: hsl(165.7, 100%, 69.6%);
-    border: 1.5px solid hsl(165.7, 100%, 69.6%);
+    color: var(--colorGreen);
+    border: 1.5px solid var(--colorGreen);
     height: 3.5rem;
+    font-family: var(--fontMono);
     /* width: 30vw; */
     /* font-size: 1rem; */
 }
 
 #maincheckprojbtn:hover{
     
-    background: #123d60;
-    /* background: #123d60; */
+    background: var(--colorGreenTint);
+    
+    
+}
+
+
+@media only screen and (max-width: 500px){
+    .main{
+        /* border: 2px solid red; */
+        width: 95%;
+        /* color: aliceblue; */
+        /* color: rgb(170, 177, 183); */
+        /* color: hsl(225.7, 70%, 88.2%); */
+        /* display: flex; */
+        /* flex-direction: column; */
+        /* justify-content: flex-start; */
+        /* align-items: flex-start; */
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-bottom: 70px;
+        margin-top: 200px;
+    }
+    .mainname{
+        font-size: 3.5rem;
+        /* font-family: var(--fontSans); */
+        margin: 2px;
+        padding: 1px;
+      
+    }
+    .mainwhatdo{
+        /* font-size: 5rem; */
+        font-size: 3rem;
+        /* margin: 0;
+        padding: 0;
+        opacity: 0.7;
+        text-align: left; */
+    }
+    .mainwhoami, .maincurrent{
+        /* text-align: left;
+        font-family: var(--fontNunito);
+        padding: 2px 0;
+        margin: 0; */
+        font-size: 1.2rem;
+    }
     
 }

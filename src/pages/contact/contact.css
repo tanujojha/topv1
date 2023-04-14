@@ -2,12 +2,13 @@
     /* border: 2px solid red; */
     width: 80vw;
     color: white;
-    margin-top: 50px;
+    margin: 50px 0;
+    padding: 50px 1px;
 }
 
 .swncontact{
     font-weight: 600;
-    font-size: 20px;
+    font-size: 18px;
     color: var(--color4);
     margin-right: 30%;
     margin-bottom: 0;
@@ -16,11 +17,15 @@
 .gintcontact{
     margin-top: 10px;
     /* font-size: 10vw; */
+    color: var(--lightestSlate);
+    font-family: var(--fontSans);
     font-size: 4vw;
 }
 
 .contact > p{
     margin: 8px auto;
+    color: var(--light-slate);
+    font-family: var(--fontMono);
     /* font-size: large; */
     
 }
@@ -41,13 +46,23 @@
     text-transform: capitalize;
     font-size: 17px;
     margin-top: 30px;
-    color: aliceblue;
-    border: 1.5px solid var(--color4);
- 
+    color: var(--colorGreen);
+    border: 1.5px solid var(--colorGreen);
+    font-family: var(--fontMono);
+    transition: var(--transition);
+}
+
+#sayhellocontact:hover{
+    background: var(--colorGreenTint);
 }
 
 
 @media only screen and (max-width: 750px){
+    .contact{
+        width: 95%;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
     .swncontact{
         text-align: left;
     }
