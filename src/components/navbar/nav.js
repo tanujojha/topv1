@@ -5,7 +5,7 @@ import "./nav.css"
 import Hamburger from '../hamburger/hamburger';
 import Roll from 'react-reveal/Roll';
 
-function Navbar() {
+function Navbar({togglerIsClicked, setTogglerIsClicked}) {
 
   const isDesktop = useMediaQuery("(min-width: 750px)") 
 
@@ -16,7 +16,7 @@ function Navbar() {
   const navStyle = {
     display: "flex",
     justifyContent: "center",
-    height: "80px",
+    height: "100px",
     display: "flex",
     flexDirection: "column",
     alignItems: "center",
@@ -26,17 +26,12 @@ function Navbar() {
     left: 0,
     right: 0,
     zIndex: 1,
+    transition: "top 1s ease"
   }
-    
-  // let psp = window.scrollY
-  // setPrevScrollPosition(psp)
-  // console.log("scrollPos: " + psp);
   
   const scrollHandle = ()=>{
     let nsp = window.scrollY
     setNewScrollPosition(nsp)
-    // console.log("newPos: " + nsp);
-    // console.log(prevScrollPosition);
 
     if(prevScrollPosition > nsp ){
       setVisible(true)
@@ -49,12 +44,6 @@ function Navbar() {
   }
 
   useEffect(()=>{
-    // let psp = window.scrollY
-    // setPrevScrollPosition(psp)
-    console.log("prevPos: " + prevScrollPosition);
-    console.log("newPos: " + newScrollPosition);
-    console.log(visible);
-
     window.addEventListener("scroll", scrollHandle);
     
     return ()=>{
@@ -63,7 +52,7 @@ function Navbar() {
   }, [newScrollPosition])
 
   return (
-    <div className='navbar' style={{...navStyle, top: visible ? 0 : "-100px"}}>
+    <div className='navbar' style={{...navStyle, top: visible ? 0 : "-100px", boxShadow: !newScrollPosition < 1 ? "0px 1px 10px rgb(26, 25, 25)" : "none"}}>
         <div className='innernavbar'>
             <div className='logodiv'>
                 <img src="assets/logo.png" alt="tanuj logo"/>
@@ -87,7 +76,7 @@ function Navbar() {
                 :
                 (
                     <div className='Mnavlinksdiv'>
-                        <Hamburger/>
+                        <Hamburger togglerIsClicked={togglerIsClicked} setTogglerIsClicked={setTogglerIsClicked}/>
                     </div>
                 )
             }

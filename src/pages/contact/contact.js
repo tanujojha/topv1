@@ -12,7 +12,7 @@ function Contact() {
               <h5 className='swncontact'>So What's Next ?</h5>
               <h1 className='gintcontact'>Get In Touch</h1>
               <p className='fstpcontact'>Hey! Feel free to drop a message if you have any</p>
-              <p className='scndpcontact'>suggesions or cool/crazy ideas</p>
+              <p className='scndpcontact'>suggestions or cool/crazy ideas</p>
               <p className='thrdpcontact'>My inbox is open for Recruiters and Collaborators</p>
               <Button id='sayhellocontact' variant='outlined' size='large'>Say Hello</Button>
           </div>

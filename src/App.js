@@ -15,30 +15,37 @@ import { useEffect } from 'react';
 import { useState } from 'react';
 
 
-export const scroll = new SmoothScroll('a[href*="#"]', { 
-  speed: 900,
-  speedAsDuration: true,
-  easing: "easeInQuad",
-});
+// export const scroll = new SmoothScroll('a[href*="#"]', { 
+//   speed: 900,
+//   speedAsDuration: true,
+//   easing: "easeInQuad",
+// });
 
 function App() {
 
   const isDesktop = useMediaQuery("(min-width: 750px)");
 
+  const [togglerIsClicked, setTogglerIsClicked] = useState(false)
      
   return (
-    <div className="App">
-      {/* <Scrollbars autoHide style={{ width: "100vw", height: "100vh"}}> */}
-        <Navbar />
+    <div className="App" style={{overflowY: togglerIsClicked ? "hidden" : "auto"}}>
+        {/* <Scrollbars autoHide style={{ width: "100vw", height: "100vh"}}> */}
+        
         {isDesktop ? <LftFlt/> : null}
         {isDesktop ? <RgtFlt/> : null}
-        <Main/>
-        <About/>
-        <Skills/>
-        <Projects/>
-        <Contact/>
-        <Footer/>
-      {/* </Scrollbars> */}
+        <Navbar togglerIsClicked={togglerIsClicked} setTogglerIsClicked={setTogglerIsClicked}/>
+        
+        {/* the bellow div is only for the blur effect on hamburger toggle */}
+        <div style={{filter: togglerIsClicked ? "blur(5px)" : "none"}} >
+          <Main />
+          <About/>
+          <Skills/>
+          <Projects/>
+          <Contact/>
+          <Footer/>
+        </div>
+
+        {/* </Scrollbars> */}
     </div>
   );
 }

@@ -10,6 +10,7 @@ function LftFlt() {
     <Fade bottom delay={100}>
       <div className='lftflt'>
           <ul className='iconsul'>
+              {/* <li><a className='gitlink' href="https://github.com/tanujojha" target='_blank'><GitLogo /></a></li> */}
               <li><a className='gitlink' href="https://github.com/tanujojha" target='_blank'><GitLogo /></a></li>
               <li><a className='linkedinlink' href="https://github.com/tanujojha" target='_blank'><LinkedinLogo /></a></li>
           </ul>

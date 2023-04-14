@@ -1,0 +1,26 @@
+.AllLinks{
+    color: rgb(170, 177, 183);
+}
+
+.AllLinks:hover{
+    color: hsl(165.7, 100%, 69.6%);
+}
+
+
+.AllHeadings{
+    color: hsl(225.7, 70%, 88.2%);
+}
+
+.AllContent{
+    color: hsl(225.7, 70%, 88.2%);
+}
+
+.AllButtons{
+    color: hsl(165.7, 100%, 69.6%);
+    border: 1.5px solid hsl(165.7, 100%, 69.6%);
+}
+
+.AllButtons:hover{
+    background: #123d60;
+}
+

@@ -1,13 +1,3 @@
-/* *{
-    margin: 0;
-    padding: 0;
-} */
-
-body{
-    /* background: #333; */
-    /* height: 100vh;
-    width: 100vw; */
-}
 
 .toggler{
   /* ALWAYS KEEPING THE TOGGLER OR THE CHECKBOX ON TOP OF EVERYTHING :  */
@@ -16,7 +6,7 @@ body{
     width: 50px;
     position: absolute;
     top: 1.5rem;
-    right: 3rem;
+    right: 2rem;
     cursor: pointer;
     opacity: 0;
 }
@@ -24,11 +14,10 @@ body{
 .hamburger{
     z-index: 2;
     position: absolute;
-    top: 1.5rem;
+    top: 1.2rem;
     right: 2rem;
     height: 40px;
     width: 40px;
-    padding: 0.6rem;
   
   /* FOR DISPLAYING EVERY ELEMENT IN THE CENTER : */
   
@@ -91,9 +80,11 @@ TOP AT -10PX ABOVE THE MIDDLE ONE AND BOTTOM ONE IS 10PX BELOW THE MIDDLE: */
 /* MAIN MENU WITH THE WHITE BACKGROUND AND THE TEXT :  */
 
 .menu{
-    background: var(--color2);
+    /* background: var(--color2); */
+    background-color: var(--color1);
+    /* opacity: 1; */
     width: 0%;
-    height: 100vh;
+    height: 100%;
     position: fixed;
     top: 0;
     right: 0;
@@ -107,7 +98,8 @@ TOP AT -10PX ABOVE THE MIDDLE ONE AND BOTTOM ONE IS 10PX BELOW THE MIDDLE: */
 
 .toggler:checked ~ .menu{
     width: 70%;
-    
+    /* overflow-y: hidden !important; */
+    /* opacity: 0.95; */
 
 }
 
@@ -134,9 +126,9 @@ TOP AT -10PX ABOVE THE MIDDLE ONE AND BOTTOM ONE IS 10PX BELOW THE MIDDLE: */
 }
 
 .menu > div > ul > li > a{
-    color: black;
+    color: white;
     text-decoration: none;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     font-family: var(--fontRobSlab);
 }
 

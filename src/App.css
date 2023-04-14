@@ -8,6 +8,8 @@
   --fontNunito: 'Nunito', sans-serif; 
   --fontRobSlab: 'Roboto Slab', serif;
 
+  --slate: hsl(225.7, 70%, 88.2%);
+  --light-slate: hsl(225.7, 70%, 88.2%);
 
 }
 
@@ -59,3 +61,10 @@ body{
     transform: rotate(360deg);
   }
 } */
+
+
+
+
+
+
+

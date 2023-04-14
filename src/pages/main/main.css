@@ -1,13 +1,15 @@
 .main{
     /* border: 2px solid red; */
     width: 70%;
-    color: aliceblue;
+    /* color: aliceblue; */
+    /* color: rgb(170, 177, 183); */
+    color: hsl(225.7, 70%, 88.2%);
     display: flex;
     flex-direction: column;
     /* justify-content: flex-start; */
     align-items: flex-start;
     /* padding-left: 10px; */
-    margin-top: 200px;
+    margin-top: 130px;
 }
 
 .maingreetdiv{
@@ -74,9 +76,17 @@
 #maincheckprojbtn{
     text-transform: capitalize;
     font-weight: 600;
-    color: aliceblue;
-    border: 2px solid var(--color4);
+    /* color: aliceblue; */
+    color: hsl(165.7, 100%, 69.6%);
+    border: 1.5px solid hsl(165.7, 100%, 69.6%);
     height: 3.5rem;
     /* width: 30vw; */
     /* font-size: 1rem; */
+}
+
+#maincheckprojbtn:hover{
+    
+    background: #123d60;
+    /* background: #123d60; */
+    
 }
