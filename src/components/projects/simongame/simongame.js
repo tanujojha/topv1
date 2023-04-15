@@ -20,8 +20,8 @@ function Simongame() {
                     <li className='tool3simongame'>{projects.simongame.tool3}</li>
                 </ul>
                 <ul className='linkssimongame'>
-                    <li className='gitlinksimongame'><a href={projects.simongame.github}><GithubLogo/></a></li>
-                    <li className='sitelinksimongame'><a href={projects.simongame.site}><GotositeLogo/></a></li>
+                    <li className='gitlinksimongame'><a href={projects.simongame.github} target='_blank' rel='noreferrer'><GithubLogo/></a></li>
+                    <li className='sitelinksimongame'><a href={projects.simongame.site} target='_blank' rel='noreferrer'><GotositeLogo/></a></li>
                 </ul>
             </div>
         </div>

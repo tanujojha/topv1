@@ -1,23 +1,13 @@
 .main{
-    /* border: 2px solid red; */
     width: 70%;
-    /* color: aliceblue; */
-    /* color: rgb(170, 177, 183); */
-    /* color: hsl(225.7, 70%, 88.2%); */
     display: flex;
     flex-direction: column;
-    /* justify-content: flex-start; */
     align-items: flex-start;
-    /* padding-left: 10px; */
     margin-top: 130px;
 }
 
-.maingreetdiv{
-
-}
 
 .maingreet{
-    /* font-family: var(--fontNunito); */
     font-family: var(--fontMono);
     font-size: 1.2rem;  
     margin: 0;
@@ -29,25 +19,20 @@
 }
 
 .mainname{
-    /* font-size: 5.5em; */
-    font-size: 8vw;
+    font-size: 7vw;
     font-family: var(--fontSans);
-    /* color: var(--lightestSlate); */
     color: var(--lightestSlate);
     margin: 0;
     padding: 0;
-    /* line-height: 6rem; */
 }
 
 
 .mainwhatdo{
-    /* font-size: 5rem; */
-    font-size: 7.5vw;
+    font-size: 6.5vw;
     font-family: var(--fontSans);
     color: var(--slate);
     margin: 0;
     padding: 0;
-    /* opacity: 0.7; */
     text-align: left;
 }
 
@@ -74,13 +59,10 @@
 #maincheckprojbtn{
     text-transform: capitalize;
     font-weight: 600;
-    /* color: aliceblue; */
     color: var(--colorGreen);
     border: 1.5px solid var(--colorGreen);
     height: 3.5rem;
     font-family: var(--fontMono);
-    /* width: 30vw; */
-    /* font-size: 1rem; */
 }
 
 #maincheckprojbtn:hover{
@@ -93,15 +75,7 @@
 
 @media only screen and (max-width: 500px){
     .main{
-        /* border: 2px solid red; */
         width: 95%;
-        /* color: aliceblue; */
-        /* color: rgb(170, 177, 183); */
-        /* color: hsl(225.7, 70%, 88.2%); */
-        /* display: flex; */
-        /* flex-direction: column; */
-        /* justify-content: flex-start; */
-        /* align-items: flex-start; */
         padding-left: 20px;
         padding-right: 20px;
         padding-bottom: 70px;
@@ -109,24 +83,15 @@
     }
     .mainname{
         font-size: 3.5rem;
-        /* font-family: var(--fontSans); */
         margin: 2px;
         padding: 1px;
       
     }
     .mainwhatdo{
-        /* font-size: 5rem; */
         font-size: 3rem;
-        /* margin: 0;
-        padding: 0;
-        opacity: 0.7;
-        text-align: left; */
+
     }
     .mainwhoami, .maincurrent{
-        /* text-align: left;
-        font-family: var(--fontNunito);
-        padding: 2px 0;
-        margin: 0; */
         font-size: 1.2rem;
     }
     

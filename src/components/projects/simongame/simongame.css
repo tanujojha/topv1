@@ -4,14 +4,11 @@
     flex-direction: row-reverse;
     justify-content: space-between;
     margin-top: 50px;
-    /* border: 2px solid white; */
     position: relative;
-    /* padding: 2px 20px; */
 }
 
 .imgdivsimongame{
     max-width: 600px;
-    /* padding: 0; */
 }
 
 .simongameimg{
@@ -27,11 +24,6 @@
     opacity: 1;
 }
 
-.contdivsimongame{
-    /* border: 3px solid green; */
-    /* position: relative; */
-}
-
 .titlesimongame{
     text-align: left;
     color: var(--lightestSlate);
@@ -43,10 +35,6 @@
     left: 0;
     top: 6vw;
     width: 50%;
-    /* padding: 5px 5px; */
-    /* border: 2px solid yellow; */
-    /* width: 200px; */
-    /* z-index: 1; */
 }
 
 .overlapcontsimongame{
@@ -68,9 +56,6 @@
     font-family: var(--fontMono);
 }
 
-.tool1simongame{
-
-}
 
 .linkssimongame{
     display: flex;
@@ -90,38 +75,24 @@
     
 }
 
-.gitlinksimongame{
 
-}
-
-.sitelinksimongame{
-
-}
 
 
 @media only screen and (max-width: 750px) {
     .simongame{
         width: 100%;
-        /* display: flex; */
-        /* justify-content: space-between; */
         margin-top: 50px;
         border: none;
         position: relative;
-        /* padding: 2px 20px; */
     }
     
-    .imgdivsimongame{
-        /* max-width: 600px; */
-        /* padding: 0; */
-    }
     
     .simongameimg{
         width: 100%;
+        height: 45vh;
         padding: 0 0;
         opacity: 0.1;
-        /* height: 50vh; */
         object-fit: cover;
-        /* margin: 0; */
     }
 
     .contdivsimongame{
@@ -129,8 +100,6 @@
         width: 100%;
         padding: 10px 10px;
         left: 5px;
-        /* border: 3px solid green; */
-        /* position: relative; */
     }
     
     .titlesimongame{
@@ -140,13 +109,7 @@
     .overlasimongame{
         position: relative;
         width: 80%;
-        margin-top: -40px;
-        /* display: flex;
-        flex-direction: column;
-        justify-content: flex-start;
-        align-content: flex-start; */
-
-        
+        margin-top: -40px;        
     }
     
     .overlapcontsimongame{
@@ -154,15 +117,10 @@
         width: 100%;
         background-color: inherit;
         font-size: large;
-        /* mar */
     }
     
     .toolssimongame{
         justify-content: flex-start;
-    
-    }
-    
-    .tool1simongame{
     
     }
     

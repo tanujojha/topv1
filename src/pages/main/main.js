@@ -1,13 +1,11 @@
 import React from 'react';
 import './main.css';
-import styles from "../../styles.module.css"
 import {main} from "../../content/content"
 import { Button, useMediaQuery } from '@mui/material';
 import Fade from 'react-reveal/Fade';
 
 function Main() {
     
-    // console.log(main);
     const isDesktop = useMediaQuery("(min-width: 750px)")
 
 

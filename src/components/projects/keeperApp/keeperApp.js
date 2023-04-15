@@ -20,8 +20,8 @@ function KeeperApp() {
                     <li className='tool3keeperapp'>{projects.keeperapp.tool3}</li>
                 </ul>
                 <ul className='linkskeeperapp'>
-                    <li className='gitlinkkeeperapp'><a href={projects.keeperapp.github}><GithubLogo/></a></li>
-                    <li className='sitelinkkeeperapp'><a href={projects.keeperapp.site}><GotositeLogo/></a></li>
+                    <li className='gitlinkkeeperapp'><a href={projects.keeperapp.github} target='_blank' rel='noreferrer'><GithubLogo/></a></li>
+                    <li className='sitelinkkeeperapp'><a href={projects.keeperapp.site} target='_blank' rel='noreferrer'><GotositeLogo/></a></li>
                 </ul>
             </div>
         </div>

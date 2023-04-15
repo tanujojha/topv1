@@ -25,8 +25,8 @@ function Tindog() {
                     <li className='tool3tindog'>{projects.tindog.tool3}</li>
                 </ul>
                 <ul className='linkstindog'>
-                    <li className='gitlinktindog'><a href={projects.tindog.github}><GithubLogo/></a></li>
-                    <li className='sitelinktindog'><a href={projects.tindog.site}><GotositeLogo/></a></li>
+                    <li className='gitlinktindog'><a href={projects.tindog.github} target='_blank' rel='noreferrer'><GithubLogo/></a></li>
+                    <li className='sitelinktindog'><a href={projects.tindog.site} target='_blank' rel='noreferrer'><GotositeLogo/></a></li>
                 </ul>
             </div>
         </div>

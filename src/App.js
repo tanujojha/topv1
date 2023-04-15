@@ -9,17 +9,9 @@ import Skills from './pages/skills/skills';
 import Projects from './pages/projects/projects';
 import Contact from './pages/contact/contact';
 import useMediaQuery from '@mui/material/useMediaQuery';
-import { Scrollbars } from 'react-custom-scrollbars';
-import SmoothScroll from "smooth-scroll";
-import { useEffect } from 'react';
+// import { Scrollbars } from 'react-custom-scrollbars';
 import { useState } from 'react';
 
-
-// export const scroll = new SmoothScroll('a[href*="#"]', { 
-//   speed: 900,
-//   speedAsDuration: true,
-//   easing: "easeInQuad",
-// });
 
 function App() {
 

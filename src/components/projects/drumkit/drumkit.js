@@ -20,8 +20,8 @@ function Drumkit() {
                     <li className='tool3drumkit'>{projects.drumkit.tool3}</li>
                 </ul>
                 <ul className='linksdrumkit'>
-                    <li className='gitlinkdrumkit'><a href={projects.drumkit.github}><GithubLogo/></a></li>
-                    <li className='sitelinkdrumkit'><a href={projects.drumkit.site}><GotositeLogo/></a></li>
+                    <li className='gitlinkdrumkit'><a href={projects.drumkit.github} target='_blank' rel='noreferrer'><GithubLogo/></a></li>
+                    <li className='sitelinkdrumkit'><a href={projects.drumkit.site} target='_blank' rel='noreferrer'><GotositeLogo/></a></li>
                 </ul>
             </div>
         </div>

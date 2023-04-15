@@ -1,13 +1,10 @@
 .footer{
-    /* border: 2px solid red; */
     margin-top: 60px;
     width: 100%;
     color: white;
+    padding-bottom: 20px;
 }
 
-.ficonsdiv{
-    /* font-size: 20px; */
-}
 
 .ficonsul{
     display: flex;

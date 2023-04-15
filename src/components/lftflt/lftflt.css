@@ -1,6 +1,4 @@
 .lftflt{
-    /* border: 2px solid black; */
-    /* display: flex; */
     width: max-content;
     position: fixed;
     bottom: 0;
@@ -27,14 +25,12 @@
 
 
 .gitlink, .linkedinlink{
-    /* color: rgb(170, 177, 183); */
     color: var(--light-slate);
     transition: var(--transition);
     
 }
 
 .gitlink:hover, .linkedinlink:hover{
-    /* color: rgb(170, 177, 183); */
     color: var(--colorGreen);
         
 }

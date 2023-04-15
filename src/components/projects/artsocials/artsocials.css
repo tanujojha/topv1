@@ -4,14 +4,11 @@
     flex-direction: row-reverse;
     justify-content: space-between;
     margin-top: 50px;
-    /* border: 2px solid white; */
     position: relative;
-    /* padding: 2px 20px; */
 }
 
 .imgdivartsls{
     max-width: 600px;
-    /* padding: 0; */
 } 
 
 .artslsimg{
@@ -28,10 +25,6 @@
     opacity: 1;
 }
 
-.contdivartsls{
-    /* border: 3px solid green; */
-    /* position: relative; */
-}
 
 .titleartsls{
     text-align: left;
@@ -44,10 +37,6 @@
     left: 0;
     top: 6vw;
     width: 50%;
-    /* padding: 5px 5px; */
-    /* border: 2px solid yellow; */
-    /* width: 200px; */
-    /* z-index: 1; */
 }
 
 .overlapcontartsls{
@@ -57,7 +46,6 @@
     font-family: var(--fontNunito);
     text-align: left;
     padding: 20px 15px;
-    /* font-size: 1.3vw; */
 }
 
 .toolsartsls{
@@ -71,9 +59,6 @@
 
 }
 
-.tool1artsls{
-
-}
 
 .linksartsls{
     display: flex;
@@ -94,38 +79,22 @@
     
 }
 
-.gitlinkartsls{
-
-}
-
-.sitelinkartsls{
-
-}
 
 
 @media only screen and (max-width: 750px) {
     .artsocials{
         width: 100%;
-        /* display: flex; */
-        /* justify-content: space-between; */
         margin-top: 50px;
         border: none;
         position: relative;
-        /* padding: 2px 20px; */
     }
-    
-    .imgdivartsls{
-        /* max-width: 600px; */
-        /* padding: 0; */
-    }
-    
+        
     .artslsimg{
         width: 100%;
         padding: 0 0;
         opacity: 0.1;
         height: 52vh;
         object-fit: cover;
-        /* margin: 0; */
     }
 
     .contdivartsls{
@@ -133,9 +102,6 @@
         left: 5px;
         width: 100%;
         padding: 1px 10px;
-        
-        /* border: 3px solid green; */
-        /* position: relative; */
     }
     
     .titleartsls{
@@ -146,12 +112,6 @@
         position: relative;
         width: 80%;
         margin-top: -40px;
-        /* display: flex;
-        flex-direction: column;
-        justify-content: flex-start;
-        align-content: flex-start; */
-
-        
     }
     
     .overlapcontartsls{
@@ -159,15 +119,10 @@
         width: 100%;
         background-color: inherit;
         font-size: large;
-        /* mar */
     }
     
     .toolsartsls{
         justify-content: flex-start;
-    
-    }
-    
-    .tool1artsls{
     
     }
     

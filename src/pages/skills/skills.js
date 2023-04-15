@@ -19,12 +19,12 @@ function Skills() {
 
   return (
     <Fade bottom delay={100}>
-        <div className='base'>
+        <div className='base' id='skills'>
             <div className='skills'>
                 <h2 className='titleskills'>Skills</h2>
                 <div className='innerskills'>
                     {
-                        skills.map((skill)=> <SkillImg skill={skill}/>)
+                        skills.map((skill, index)=> <SkillImg key={index} skill={skill}/>)
                     }
                 </div>
             </div>

@@ -1,5 +1,4 @@
 .rgtflt{
-    /* border: 2px solid black; */
     width: fit-content;
     position: fixed;
     bottom: -5px;
@@ -8,11 +7,9 @@
     flex-direction: column;
     align-items: center;
     z-index: 1;
-    /* justify-content: center; */
 }
 
 .rgtflt > a{
-    /* border: 2px solid yellow; */
     writing-mode: vertical-rl;
     color: var(--light-slate);
     text-decoration: none;

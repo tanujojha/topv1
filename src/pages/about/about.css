@@ -1,14 +1,10 @@
 .about{
-    /* border: 2px solid red; */
     width: 70%;
-    /* color: aliceblue; */
     display: flex;
     flex-direction: column;
-    /* justify-content: flex-start; */
     align-items: flex-start;
     padding: 60px 1px;
     margin-top: 50px;
-    /* height: 500px; */
 
 }
 
@@ -76,7 +72,5 @@
     .cont-imgdivabout{
         display: flex;
         flex-direction: column;
-        /* border: 2px solid red; */
-        /* height: 600px; */
     }
 }

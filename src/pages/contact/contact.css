@@ -1,5 +1,4 @@
 .contact{
-    /* border: 2px solid red; */
     width: 80vw;
     color: white;
     margin: 50px 0;
@@ -16,7 +15,6 @@
 
 .gintcontact{
     margin-top: 10px;
-    /* font-size: 10vw; */
     color: var(--lightestSlate);
     font-family: var(--fontSans);
     font-size: 4vw;
@@ -26,21 +24,9 @@
     margin: 8px auto;
     color: var(--light-slate);
     font-family: var(--fontMono);
-    /* font-size: large; */
     
 }
 
-.fstpcontact{
-
-}
-
-.scndpcontact{
-
-}
-
-.thrdpcontact{
-
-}
 
 #sayhellocontact{
     text-transform: capitalize;
@@ -68,7 +54,6 @@
     }
 
     .gintcontact{
-        /* font-size: 10vw; */
         font-size: 7vw;
     }
 
@@ -86,7 +71,6 @@
     }
 
     .gintcontact{
-        /* font-size: 10vw; */
         font-size: 10vw;
     }
 

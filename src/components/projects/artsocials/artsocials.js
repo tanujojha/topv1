@@ -20,8 +20,8 @@ function Artsocials() {
                     <li className='tool3artsls'>{projects.artsocials.tool3}</li>
                 </ul>
                 <ul className='linksartsls'>
-                    <li className='gitlinkartsls'><a href={projects.artsocials.github}><GithubLogo/></a></li>
-                    <li className='sitelinkartsls'><a href={projects.artsocials.site}><GotositeLogo/></a></li>
+                    <li className='gitlinkartsls'><a href={projects.artsocials.github} target='_blank' rel='noreferrer'><GithubLogo/></a></li>
+                    <li className='sitelinkartsls'><a href={projects.artsocials.site} target='_blank' rel='noreferrer'><GotositeLogo/></a></li>
                 </ul>
             </div>
         </div>

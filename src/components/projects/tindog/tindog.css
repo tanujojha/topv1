@@ -2,10 +2,8 @@
     width: 100%;
     display: flex;
     justify-content: space-between;
-    /* margin-top: 10px; */
-    /* border: 2px solid white; */
+    margin-top: 10px;
     position: relative;
-    /* padding: 2px 20px; */
 }
 
 .imgdivtindog{
@@ -20,18 +18,12 @@
     height: 40vh;
     border-radius: 10px;
     transition: var(--transition);
-    /* object-fit: cover; */
-    /* margin: 0; */
 }
 
 .tindogimg:hover{
     opacity: 1;
 }
 
-.contdivtindog{
-    /* border: 3px solid green; */
-    /* position: relative; */
-}
 
 .titletindog{
     text-align: right;
@@ -68,9 +60,6 @@
 
 }
 
-.tool1tindog{
-
-}
 
 .linkstindog{
     display: flex;
@@ -87,40 +76,24 @@
 }
 
 .linkstindog a:hover{
-    color: var(--colorGreen);
-    
+    color: var(--colorGreen);    
 }
 
-.gitlinktindog{
-   
-}
-
-.sitelinktindog{
-
-}
 
 
 @media only screen and (max-width: 750px) {
     .tindog{
         width: 100%;
-        /* display: flex; */
-        /* justify-content: space-between; */
-        margin-top: 0;
+        margin-top: 30px;
         border: none;
         position: relative;
-        /* padding: 2px 20px; */
     }
-    
-    .imgdivtindog{
-        /* max-width: 600px; */
-        /* padding: 0; */
-    }
-    
+       
     .tindogimg{
         width: 100%;
         padding: 0 0;
         opacity: 0.1;
-        height: 45vh;
+        height: 49vh;
         object-fit: cover;
         /* margin: 0; */
     }
@@ -129,8 +102,6 @@
         position: absolute;
         width: 100%;
         padding: 15px 10px;
-        /* border: 3px solid green; */
-        /* position: relative; */
     }
     
     .titletindog{
@@ -141,12 +112,7 @@
         position: relative;
         width: 90%;
         margin-top: -40px;
-        /* display: flex;
-        flex-direction: column;
-        justify-content: flex-start;
-        align-content: flex-start; */
 
-        
     }
     
     .overlapconttindog{
@@ -161,11 +127,9 @@
     
     }
     
-    .tool1tindog{
-    
-    }
-    
     .linkstindog{
         justify-content: flex-start;
     }
-  }
+}
+
+

@@ -16,8 +16,7 @@ code {
 html{
   scroll-behavior: smooth;
   scrollbar-width: thin;
-  /* scrollbar-color: hsl(220, 21.1%, 36.3%) var(--color1); */
-  scrollbar-color: #263d62 var(--color1);
+  scrollbar-color: #263d62 var(--colorDarkNavy);
   
 }
 
@@ -38,5 +37,6 @@ html{
 /* Handle */
 ::-webkit-scrollbar-thumb {
   background: #263d62;
+  background: var(--colorNavy);
   border-radius: 10px;
 }

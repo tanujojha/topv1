@@ -95,7 +95,7 @@ export const projects = {
         tool1: "MERN",
         tool2: "JWT",
         tool3: "Cookie-Parser",
-        github: "https://github.com/tanujojha/artsocials",
+        github: "https://github.com/tanujojha/ArtSocials",
         site: "https://tanujojha.github.io/artsocials"
     },
     chatapp: {
@@ -111,8 +111,8 @@ export const projects = {
         tool1: "ReactJS",
         tool2: "CSS",
         tool3: "BootStrap",
-        github: "https://github.com/tanujojha/tindog",
-        site: "https://tanujojha.github.io/tindog"
+        github: "https://github.com/tanujojha/Keeper-App",
+        site: "https://keepy.netlify.app"
     },
     tindog: {
         img: "/assets/projects/tindog.png",
@@ -121,7 +121,7 @@ export const projects = {
         tool2: "CSS",
         tool3: "BootStrap",
         github: "https://github.com/tanujojha/tindog",
-        site: "https://tanujojha.github.io/tindog"
+        site: "https://tinderdogo.netlify.app"
     },
     simongame: {
         img: "/assets/projects/drumkit.png",
@@ -129,7 +129,7 @@ export const projects = {
         tool1: "HTML",
         tool2: "CSS",
         tool3: "JQuery",
-        github: "https://github.com/tanujojha/tindog",
+        github: "https://github.com/tanujojha/simon-game",
         site: "https://tanujojha.github.io/tindog"
     },
     drumkit: {
@@ -138,7 +138,13 @@ export const projects = {
         tool1: "HTML",
         tool2: "CSS",
         tool3: "BootStrap",
-        github: "https://github.com/tanujojha/tindog",
-        site: "https://tanujojha.github.io/tindog"
+        github: "https://github.com/tanujojha/drumkit-",
+        site: "https://tanujojha.github.io/drumkit-/"
     }
+}
+
+export const deets = {
+    resume: "https://drive.google.com/file/d/148SyAqbdq51Bij69w2Ig_0p33cSufyj_/view?usp=share_link",
+    github: "https://github.com/tanujojha",
+    linkedin: "https://www.linkedin.com/in/tanujojha/"
 }

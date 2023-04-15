@@ -6,6 +6,8 @@
   --color4: #A5D7E8;
   --colorGreen: hsl(165.7, 100%, 69.6%);
   --colorGreenTint: #123d60;
+  --colorDarkNavy: #020c1b;
+  --colorNavy: #0a192f;
   --colorLightNavy: #112240;
   
   --darkSlate: #495670;
@@ -31,7 +33,7 @@
 
 
 body{
-  background: var(--color1);
+  background: var(--colorDarkNavy);
 }
 
 .App {

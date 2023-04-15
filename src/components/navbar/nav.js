@@ -3,6 +3,7 @@ import React, { useState, useEffect } from 'react';
 import useMediaQuery from '@mui/material/useMediaQuery';
 import "./nav.css"
 import Hamburger from '../hamburger/hamburger';
+import {deets} from "../../content/content"
 import Roll from 'react-reveal/Roll';
 
 function Navbar({togglerIsClicked, setTogglerIsClicked}) {
@@ -17,10 +18,8 @@ function Navbar({togglerIsClicked, setTogglerIsClicked}) {
     display: "flex",
     justifyContent: "center",
     height: "100px",
-    display: "flex",
     flexDirection: "column",
     alignItems: "center",
-    // marginBottom: "300px",
     position: "fixed",
     top: 0,
     left: 0,
@@ -49,13 +48,13 @@ function Navbar({togglerIsClicked, setTogglerIsClicked}) {
     return ()=>{
       window.removeEventListener("scroll", scrollHandle)
     }
-  }, [newScrollPosition])
+  },[newScrollPosition])
 
   return (
     <div className='navbar' style={{...navStyle, top: visible ? 0 : "-100px", boxShadow: !newScrollPosition < 1 ? "0px 1px 10px rgb(26, 25, 25)" : "none"}}>
         <div className='innernavbar'>
             <div className='logodiv'>
-                <img src="assets/logo.png" alt="tanuj logo"/>
+                <img onClick={()=> window.location.reload()} src="assets/logo.png" alt="tanuj logo"/>
             </div>
             {
                 isDesktop 
@@ -69,7 +68,7 @@ function Navbar({togglerIsClicked, setTogglerIsClicked}) {
                             <Roll left delay={700}><li><a href="#contact">Contact</a></li></Roll>
                         </ul>
                         <div className='Dresumebtndiv'>
-                        <Roll left delay={900}><Button size='small' variant="outlined" id='Dresumebtn'>Resume</Button></Roll>
+                        <Roll left delay={900}><Button href={deets.resume} target='_blank' size='small' variant="outlined" id='Dresumebtn'>Resume</Button></Roll>
                         </div>
                     </div> 
                 )
