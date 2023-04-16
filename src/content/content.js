@@ -96,7 +96,7 @@ export const projects = {
         tool2: "JWT",
         tool3: "Cookie-Parser",
         github: "https://github.com/tanujojha/ArtSocials",
-        site: "https://tanujojha.github.io/artsocials"
+        site: "https://artsocials.netlify.app/"
     },
     chatapp: {
         desc: `A quirky chat application with a login register functionality, where users can interact with other users. It also has option to send images.`,
@@ -106,7 +106,7 @@ export const projects = {
         tool4: "Socket.io"
     },
     keeperapp: {
-        img: "/assets/projects/tindog.png",
+        img: "/assets/projects/keeperapp.png",
         desc: "Keeper App is a note-taking service like Google Keep which allows users to add, update and delete notes.",
         tool1: "ReactJS",
         tool2: "CSS",
@@ -124,13 +124,13 @@ export const projects = {
         site: "https://tinderdogo.netlify.app"
     },
     simongame: {
-        img: "/assets/projects/drumkit.png",
+        img: "/assets/projects/simongame.png",
         desc: "A game in which the player has to remember the order of the colors as computer and click the colors in the same order.",
         tool1: "HTML",
         tool2: "CSS",
         tool3: "JQuery",
-        github: "https://github.com/tanujojha/simon-game",
-        site: "https://tanujojha.github.io/tindog"
+        github: "https://github.com/tanujojha/simonGame",
+        site: "https://tanujojha.github.io/simonGame/"
     },
     drumkit: {
         img: "/assets/projects/drumkit.png",
