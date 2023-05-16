@@ -91,7 +91,7 @@ export const skills = [
 export const projects = {
     artsocials: {
         img: "/assets/projects/artsocials.png",
-        desc: `ArtSocials is a flexible Content sharing Website, where users are able to post their content of any kind such as text, photo or a video, and can look at their friends post and have the options to react and comment.`,
+        desc: `ArtSocials is a flexible Content sharing Website, where users are able to post their content of any kind such as text, photo or a video, and can look at their friend's posts and have the options to react and comment on a post.`,
         tool1: "MERN",
         tool2: "JWT",
         tool3: "Cookie-Parser",
@@ -116,7 +116,7 @@ export const projects = {
     },
     tindog: {
         img: "/assets/projects/tindog.png",
-        desc: "Tindog is a Tinder for dogs made with pure HTML and CSS. It is a qurky website where users can find a friend for thier dog. It has options such as pricing and defferent breeds.",
+        desc: "Tindog is a Tinder for dogs made with pure HTML and CSS. It is a quirky website where users can find a friend for their dog. It has options such as pricing and defferent breeds.",
         tool1: "HTML",
         tool2: "CSS",
         tool3: "BootStrap",
@@ -134,7 +134,7 @@ export const projects = {
     },
     drumkit: {
         img: "/assets/projects/drumkit.png",
-        desc: "DrumKit is a game which includes different instruments form a typical Drum kit such as base, symbols etc. One can here different sounds by clicking on the instruments.",
+        desc: "DrumKit is a game which includes different instruments that form a typical Drum set such as base, symbols etc. One can hear different sounds by clicking on the instruments.",
         tool1: "HTML",
         tool2: "CSS",
         tool3: "BootStrap",
