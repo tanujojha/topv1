@@ -1,0 +1,141 @@
+.exp{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 60px 1px;
+    margin-top: 50px;
+
+}
+
+.titleexp{
+    text-align: left;
+    color: var(--lightestSlate);
+    font-family: var(--fontSans);
+    font-size: clamp(25px, 3vw, 30px);
+}
+
+.titleexp::after{
+    content: "";
+    width: 27vw;
+    height: 1.5px;
+    background-color: var(--color4);
+    display: inline-block;
+    margin: 5px 20px;
+}
+
+.outercontexpdiv{
+    display: flex;
+    justify-content: center;
+
+}
+
+.innercontexpdiv{
+    width: 90%;
+    display: flex;
+}
+
+.leftPaneexp{
+    width: 100%;
+}
+
+#compnamebtn{
+    text-transform: capitalize;
+    width: 100%;
+    background-color: inherit;
+    font-size: 0.9rem;
+    color: var(--colorGreen);
+    border-radius: 5%;
+    height: 3.5rem;
+    font-family: var(--fontMono);
+    padding-left: 15px;
+    text-align: left;
+    border: none;
+    cursor: pointer;
+}
+
+/* .buttonborderEffect{
+    border-left: 1.5px solid var(--colorGreen);
+} */
+
+#compnamebtn:hover{
+    border-left: 5.5px solid var(--colorDarkNavy);
+    
+}
+
+.rightcontdivexp{
+    text-align: left;
+    color: var(--light-slate);
+    font-family: var(--fontNunito);
+    font-size: large;
+    display: flex;
+    justify-content: center;
+}
+
+.rightcontdivinner{
+    width: 80%;
+    margin-top: 10px;
+}
+
+.desig{
+    margin-top: 0;
+    text-align: left;
+    color: var(--lightestSlate);
+    font-family: var(--fontSans);
+    font-size: clamp(20px, 0.5vw, 100px);
+    margin-bottom: 5px;
+}
+
+.compglow{
+    color: var(--colorGreen);
+    font-family: var(--fontMono);
+}
+
+.compglow > a {
+    text-decoration: none;
+    transition: text-decoration 10s linear;
+}
+
+.compglow > a:hover {
+    text-decoration: underline;
+}
+
+.duration{
+    font-size: 1.2vw;
+    font-family: var(--fontMono);
+    color: var(--slate);
+    padding: 0;
+    text-align: left;
+}
+
+.listDiv > ul{
+    list-style: none;
+    position: relative;
+}
+
+.listitem{
+    margin-bottom: 15px;
+}
+
+.listitem::before{
+    content: "▹";
+    color: var(--colorGreen);
+    position: absolute;
+    left: 0px;
+    /* font-size: 25px; */
+}
+
+@media only screen and (max-width: 750px) {
+    .exp{
+        width: 95%;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .titleexp::after{
+       width: 10rem;
+    }
+    .contdivexp{
+        font-size: medium;
+    }
+    
+}

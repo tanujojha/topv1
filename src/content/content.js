@@ -16,6 +16,57 @@ export const about = {
     button: "Contact"
 }
 
+export const experience = [
+    {
+        id: 0,
+        name: "MNB SOFT SOLUTION",
+        duration: "July 2023 - Present",
+        companyUrl: "https://mnbsoft.com/",
+        designation: "Full-Stack Developer",
+        content: [
+            `Develope, maintain, and ship high-quality and robust production code for a diverse array of projects for the company and 
+            clients including MNB CRM, MNB Project Management, MNB School Management, CentralizedExchange and numerous others.`,
+
+            `Collaborate with designers, project managers, and other engineers to transform creative concepts into production realities.`,
+
+            `Implemented seamless chat functionality using 'socket.io' to facilitate communication among administrators, employees, and clients within the MNB Project Management system.`,
+        ]
+
+    },
+    {
+        id: 1,
+        name: "Apple",
+        duration: "July 2023 - Present",
+        companyUrl: "https://mnbsoft.com/",
+        designation: "Full-Stack Developer",
+        content: [
+            `Apple Develope, maintain, and ship high-quality and robust production code for a diverse array of projects for the company and 
+            clients including MNB CRM, MNB Project Management, MNB School Management, CentralizedExchange and numerous others.`,
+
+            `Collaborate with designers, project managers, and other engineers to transform creative concepts into production realities.`,
+
+            `Implemented seamless chat functionality using 'socket.io' to facilitate communication among administrators, employees, and clients within the MNB Project Management system.`,
+        ]
+
+    },
+    {
+        id: 2,
+        name: "Amazon",
+        duration: "July 2023 - Present",
+        companyUrl: "https://mnbsoft.com/",
+        designation: "Full-Stack Developer",
+        content: [
+            `Amazon Develope, maintain, and ship high-quality and robust production code for a diverse array of projects for the company and 
+            clients including MNB CRM, MNB Project Management, MNB School Management, CentralizedExchange and numerous others.`,
+
+            `Collaborate with designers, project managers, and other engineers to transform creative concepts into production realities.`,
+
+            `Implemented seamless chat functionality using 'socket.io' to facilitate communication among administrators, employees, and clients within the MNB Project Management system.`,
+        ]
+
+    }
+]
+
 
 export const skills = [
     {

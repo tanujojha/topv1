@@ -11,6 +11,7 @@ import Contact from './pages/contact/contact';
 import useMediaQuery from '@mui/material/useMediaQuery';
 // import { Scrollbars } from 'react-custom-scrollbars';
 import { useState } from 'react';
+import Experience from './pages/experience/experience';
 
 
 function App() {
@@ -31,6 +32,7 @@ function App() {
         <div style={{filter: togglerIsClicked ? "blur(5px)" : "none"}} >
           <Main />
           <About/>
+          <Experience/>
           <Skills/>
           <Projects/>
           <Contact/>

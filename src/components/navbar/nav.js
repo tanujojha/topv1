@@ -52,34 +52,35 @@ function Navbar({togglerIsClicked, setTogglerIsClicked}) {
 
   return (
     <div className='navbar' style={{...navStyle, top: visible ? 0 : "-100px", boxShadow: !newScrollPosition < 1 ? "0px 1px 10px rgb(26, 25, 25)" : "none"}}>
-        <div className='innernavbar'>
-            <div className='logodiv'>
-                <img onClick={()=> window.location.reload()} src="assets/logo.png" alt="tanuj logo"/>
-            </div>
-            {
-                isDesktop 
-                ?
-                (
-                    <div className='Dnavlinksdiv'>
-                        <ul className='Dlinksul'>
-                            <Roll left delay={100}><li><a href="#about">About</a></li></Roll>
-                            <Roll left delay={300}><li><a href="#skills">Skills</a></li></Roll>
-                            <Roll left delay={500}><li><a href="#projects">Projects</a></li></Roll>
-                            <Roll left delay={700}><li><a href="#contact">Contact</a></li></Roll>
-                        </ul>
-                        <div className='Dresumebtndiv'>
-                        <Roll left delay={900}><Button href={deets.resume} target='_blank' size='small' variant="outlined" id='Dresumebtn'>Resume</Button></Roll>
-                        </div>
-                    </div> 
-                )
-                :
-                (
-                    <div className='Mnavlinksdiv'>
-                        <Hamburger togglerIsClicked={togglerIsClicked} setTogglerIsClicked={setTogglerIsClicked}/>
-                    </div>
-                )
-            }
-        </div>        
+      <div className='innernavbar'>
+          <div className='logodiv'>
+            <img onClick={()=> window.location.reload()} src="assets/logo.png" alt="tanuj logo"/>
+          </div>
+          {
+              isDesktop 
+              ?
+              (
+                <div className='Dnavlinksdiv'>
+                  <ul className='Dlinksul'>
+                    <Roll left delay={100}><li><a href="#about">About</a></li></Roll>
+                    <Roll left delay={200}><li><a href="#exp">Experience</a></li></Roll>
+                    <Roll left delay={300}><li><a href="#skills">Skills</a></li></Roll>
+                    <Roll left delay={500}><li><a href="#projects">Projects</a></li></Roll>
+                    <Roll left delay={700}><li><a href="#contact">Contact</a></li></Roll>
+                  </ul>
+                  <div className='Dresumebtndiv'>
+                    <Roll left delay={800}><Button href={deets.resume} target='_blank' size='small' variant="outlined" id='Dresumebtn'>Resume</Button></Roll>
+                  </div>
+                </div> 
+              )
+              :
+              (
+                <div className='Mnavlinksdiv'>
+                  <Hamburger togglerIsClicked={togglerIsClicked} setTogglerIsClicked={setTogglerIsClicked}/>
+                </div>
+              )
+          }
+      </div>        
     </div>
   )
 }

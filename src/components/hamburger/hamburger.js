@@ -23,6 +23,7 @@ function Hamburger({togglerIsClicked, setTogglerIsClicked}) {
             <div>
                 <ul>
                     <li><a onClick={handleCheckbox} href='#about'>About</a></li>
+                    <li><a onClick={handleCheckbox} href='#exp'>Experience</a></li>
                     <li><a onClick={handleCheckbox} href='#skills'>Skills</a></li>
                     <li><a onClick={handleCheckbox} href='#projects'>Projects</a></li>
                     <li><a onClick={handleCheckbox} href='#contact'>Contact</a></li>
