@@ -27,6 +27,7 @@
 .outercontexpdiv{
     display: flex;
     justify-content: center;
+    margin-top: 20px;
 
 }
 
@@ -54,9 +55,12 @@
     cursor: pointer;
 }
 
+/* handled from experience.js */
 /* .buttonborderEffect{
     border-left: 1.5px solid var(--colorGreen);
 } */
+
+
 
 #compnamebtn:hover{
     border-left: 5.5px solid var(--colorDarkNavy);
@@ -74,7 +78,7 @@
 
 .rightcontdivinner{
     width: 80%;
-    margin-top: 10px;
+    margin-top: 20px;
 }
 
 .desig{
@@ -101,7 +105,8 @@
 }
 
 .duration{
-    font-size: 1.2vw;
+    /* font-size: 1.2vw; */
+    font-size: clamp(15px, 0.5vw, 100px);
     font-family: var(--fontMono);
     color: var(--slate);
     padding: 0;
@@ -137,5 +142,34 @@
     .contdivexp{
         font-size: medium;
     }
+    .innercontexpdiv{
+        display: block;
+        width: 100%;
+    }
+    .leftPaneexp{
+        display: flex;
+        justify-content: center;
+        gap: 40px;
+        margin-bottom: 20px;
+
+    }
+    #compnamebtn{
+        border-bottom: 1.5px solid var(--colorGreen);
+        /* width: 100px; */
+    }
+    #compnamebtn:hover{
+        border-left: none;
+        /* padding-bottom: 5.5px; */
+
+    }
+    #compnamebtn:hover > span{
+        position: relative;
+        top: -5px
+
+    }
+    .rightcontdivinner{
+        width: 100%;
+    }
+
     
 }

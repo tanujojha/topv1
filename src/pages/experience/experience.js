@@ -22,12 +22,16 @@ function Experience() {
         setExpId(exp.id)
     };
 
-    // border-left: 1.5px solid var(--colorGreen);
-    const x = {"border-left": "1.5px solid var(--colorGreen)"}
-    const st = {
-        background: "yellow"
-    }
+    // const x = {"borderLeft": "1.5px solid var(--colorGreen)"}
+    let x = "1.5px solid var(--colorGreen)"
+   
+    // useEffect(()=>{
+    //     if(!isDesktop){
+    //         x = "none"
+    //     }
+    // }, [expId]);
 
+    
   return (
     <Fade bottom delay={100}>
         <div className='base' id='exp'>
@@ -37,7 +41,7 @@ function Experience() {
                     <div className='innercontexpdiv'>
                         <div className='leftPaneexp'>
                             {
-                                experience.map((exp)=> <button style={exp.id === expId ? x : {}} onClick={()=> handleExpSelect(exp)} size='small' id='compnamebtn' variant="text">{exp.name}</button>)
+                                experience.map((exp)=> <button style={exp.id === expId ? {"border-left":x} : {}} onClick={()=> handleExpSelect(exp)} size='small' id='compnamebtn' variant="text"><span className='btnspan'>{exp.name}</span></button>)
                             }
                         </div>
                         <div className='rightcontdivexp'>
