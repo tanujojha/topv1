@@ -1,14 +1,8 @@
 import React, { useEffect, useState } from 'react';
 import "./experience.css";
-import {experience, main} from "../../content/content";
-import { Button, useMediaQuery } from '@mui/material';
+import {experience} from "../../content/content";
+import { useMediaQuery } from '@mui/material';
 import Fade from 'react-reveal/Fade';
-import List from '@mui/material/List';
-import ListItem from '@mui/material/ListItem';
-import ListItemButton from '@mui/material/ListItemButton';
-import ListItemIcon from '@mui/material/ListItemIcon';
-import ListItemText from '@mui/material/ListItemText';
-import StarIcon from '@mui/icons-material/Star';
 
 
 function Experience() {
@@ -24,14 +18,7 @@ function Experience() {
 
     // const x = {"borderLeft": "1.5px solid var(--colorGreen)"}
     let x = "1.5px solid var(--colorGreen)"
-   
-    // useEffect(()=>{
-    //     if(!isDesktop){
-    //         x = "none"
-    //     }
-    // }, [expId]);
-
-    
+       
   return (
     <Fade bottom delay={100}>
         <div className='base' id='exp'>
@@ -47,7 +34,7 @@ function Experience() {
                         <div className='rightcontdivexp'>
                             <div className='rightcontdivinner'>
                                 <h4 className='desig'>{expData.designation}
-                                    <span className='compglow'> @ <a className='compglow' href={`https://mnbsoft.com`}>{expData.name}</a></span>
+                                    <span className='compglow'> @ <a target='_blank' rel='noreferrer' className='' href={`https://mnbsoft.com`}>{expData.name}</a></span>
                                 </h4>
                                 <p className='duration'>{expData.duration}</p>
                                 <div className='listDiv'>

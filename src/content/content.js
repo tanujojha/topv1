@@ -7,12 +7,21 @@ export const main = {
     button: "Check out my Projects"
 }
 
+// export const about = {
+//     greet: "Hey there !",
+//     para1: "I am Full Stack Developer and I create things that live on the internet.",
+//     para2: `I have done my graduation from Sharda University in B.Tech CSE.`,
+//     para3: "I started my journey in the Web development in 2022 when I decided to make a Social media website as my major project for the College.The journey started with the Web development boot camp from Udemy followed by building various projects including the College major project.Since then its been a great journey and still i am learning and growing in this field everyday. I am a very inquisitive person and i think that's the driving force behind my learning attitude.",
+//     para4: "I'm open to Job opportunities where I can contribute, learn and grow. If you have a good opportunity that matches my skills and experience then don't hesitate to contact me.",
+//     button: "Contact"
+// }
+
 export const about = {
-    greet: "Hey there!",
-    para1: "I am Full Stack Developer and I create things that live on the internet.",
-    para2: `I have done my graduation from Sharda University in B.Tech CSE.`,
-    para3: "I started my journey in the Web development in 2022 when I decided to make a Social media website as my major project for the College.The journey started with the Web development boot camp from Udemy followed by building various projects including the College major project.Since then its been a great journey and still i am learning and growing in this field everyday. I am a very inquisitive person and i think that's the driving force behind my learning attitude.",
-    para4: "I'm open to Job opportunities where I can contribute, learn and grow. If you have a good opportunity that matches my skills and experience then don't hesitate to contact me.",
+    greet: "Hey there !",
+    para1: "I'm a Full Stack Developer crafting solutions for the web.",
+    para2: `I hold a B.Tech in CSE from Sharda University.`,
+    para3: "My journey into web development began in 2022 when I embarked on creating a Social Media website for my college project. Starting with a Web Development boot camp on Udemy, I've since built various projects, including the college major project. The learning journey has been incredible, and I continue to grow and explore in this field.",
+    para4: "Currently, with my professional experience, I bring an inquisitive mindset and a passion for learning to any project. I'm actively seeking job opportunities to contribute, learn, and thrive. Feel free to reach out if you have a fitting opportunity. Cheers!",
     button: "Contact"
 }
 
@@ -33,38 +42,6 @@ export const experience = [
         ]
 
     },
-    {
-        id: 1,
-        name: "Apple",
-        duration: "July 2023 - Present",
-        companyUrl: "https://mnbsoft.com/",
-        designation: "Full-Stack Developer",
-        content: [
-            `Apple Develope, maintain, and ship high-quality and robust production code for a diverse array of projects for the company and 
-            clients including MNB CRM, MNB Project Management, MNB School Management, CentralizedExchange and numerous others.`,
-
-            `Collaborate with designers, project managers, and other engineers to transform creative concepts into production realities.`,
-
-            `Implemented seamless chat functionality using 'socket.io' to facilitate communication among administrators, employees, and clients within the MNB Project Management system.`,
-        ]
-
-    },
-    {
-        id: 2,
-        name: "Amazon",
-        duration: "July 2023 - Present",
-        companyUrl: "https://mnbsoft.com/",
-        designation: "Full-Stack Developer",
-        content: [
-            `Amazon Develope, maintain, and ship high-quality and robust production code for a diverse array of projects for the company and 
-            clients including MNB CRM, MNB Project Management, MNB School Management, CentralizedExchange and numerous others.`,
-
-            `Collaborate with designers, project managers, and other engineers to transform creative concepts into production realities.`,
-
-            `Implemented seamless chat functionality using 'socket.io' to facilitate communication among administrators, employees, and clients within the MNB Project Management system.`,
-        ]
-
-    }
 ]
 
 

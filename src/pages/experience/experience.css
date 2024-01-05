@@ -97,11 +97,25 @@
 
 .compglow > a {
     text-decoration: none;
-    transition: text-decoration 10s linear;
+    color: var(--colorGreen);
+    position: relative;
 }
 
-.compglow > a:hover {
-    text-decoration: underline;
+.compglow > a::after{
+    content: "";
+    width: 0;
+    height: 1.5px;
+    background-color: var(--color4);
+    display: inline-block;
+    position: absolute;
+    bottom: -10px;
+    left: -20px;
+    margin: 5px 20px;
+    transition: all 0.8s ease;
+}
+
+.compglow > a:hover::after {
+    width: 100%;
 }
 
 .duration{

@@ -13,6 +13,7 @@ function About() {
                 <h2 className='titleabout'>About Me</h2>
                 <div className='cont-imgdivabout'>
                     <div className='contdivabout'>
+                        <p className='para0contabout'>{about.greet}</p>
                         <p className='para1contabout'>{about.para1}</p>
                         <p className='para2contabout'>{about.para2}</p>
                         <p className='para3contabout'>{about.para3}</p>
