@@ -33,12 +33,12 @@ export const experience = [
         companyUrl: "https://mnbsoft.com/",
         designation: "Full-Stack Developer",
         content: [
-            `Develope, maintain, and ship high-quality and robust production code for a diverse array of projects for the company and 
+            `Develop, maintain and ship high-quality and robust production code for a diverse array of projects for the company and 
             clients including MNB CRM, MNB Project Management, MNB School Management, CentralizedExchange and numerous others.`,
 
             `Collaborate with designers, project managers, and other engineers to transform creative concepts into production realities.`,
 
-            `Implemented seamless chat functionality using 'socket.io' to facilitate communication among administrators, employees, and clients within the MNB Project Management system.`,
+            `Implemented seamless chat functionality using 'socket.io' to facilitate communication among administrators, employees and clients within the MNB Project Management system.`,
         ]
 
     },
