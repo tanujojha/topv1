@@ -110,8 +110,18 @@ export const skills = [
         "title": "Mongoose",
         "img": "/assets/skills/mongoose1.png",
         "link": "https://mongoose.com/",
-    }
-
+    },
+    {
+        "title": "AWS",
+        "img": "/assets/skills/aws.png",
+        "link": "https://aws.amazon.com/",
+    },
+    {
+        "title": "BASH",
+        "img": "/assets/skills/bash.png",
+        "link": "https://www.gnu.org/software/bash/",
+    },
+    
 ]
 
 
@@ -172,7 +182,7 @@ export const projects = {
 }
 
 export const deets = {
-    resume: "https://drive.google.com/file/d/148SyAqbdq51Bij69w2Ig_0p33cSufyj_/view?usp=share_link",
+    resume: "https://drive.google.com/file/d/1U-5Lv6sLnpWpQQ64wGGeuazVpB3-0tkA/view?usp=drive_link",
     github: "https://github.com/tanujojha",
     linkedin: "https://www.linkedin.com/in/tanujojha/"
 }
