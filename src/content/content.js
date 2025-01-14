@@ -182,7 +182,7 @@ export const projects = {
 }
 
 export const deets = {
-    resume: "https://drive.google.com/file/d/1U-5Lv6sLnpWpQQ64wGGeuazVpB3-0tkA/view?usp=drive_link",
+    resume: "https://drive.google.com/file/d/126sdJdQcSk6QObhiVWlSP_BhC8fOg10L/view?usp=drive_link",
     github: "https://github.com/tanujojha",
     linkedin: "https://www.linkedin.com/in/tanujojha/"
 }
