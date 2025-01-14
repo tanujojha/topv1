@@ -3,7 +3,7 @@ export const main = {
     name: "Tanuj ojha.",
     whatdo: "I build Web Apps.",
     whoami: "I am a Full Stack developer specialized in building web based application.",
-    current: "Currently I am working on a Chat Application.",
+    current: "Currently I am working MNB Soft Solution",
     button: "Check out my Projects"
 }
 
@@ -18,11 +18,10 @@ export const main = {
 
 export const about = {
     greet: "Hey there !",
-    para1: "I'm a Full Stack Developer crafting solutions for the web.",
-    para2: `I hold a B.Tech in CSE from Sharda University.`,
-    para3: "My journey into web development began in 2022 when I embarked on creating a Social Media website for my college project. Starting with a Web Development boot camp on Udemy, I've since built various projects, including the college major project. The learning journey has been incredible, and I continue to grow and explore in this field.",
-    para4: "Currently, with my professional experience, I bring an inquisitive mindset and a passion for learning to any project. I'm actively seeking job opportunities to contribute, learn, and thrive. Feel free to reach out if you have a fitting opportunity. Cheers!",
-    button: "Contact"
+    para1: "Hi, I’m Tanuj, a Full-Stack Developer with a knack for building reliable and user-friendly web applications using the MERN stack. I’m passionate about turning ideas into functional, scalable, and efficient digital solutions.",
+    para2: `Right now, I’m working at MNB Soft Solution Pvt. Ltd., where I focus on creating everything from project management tools with real-time chat to e-commerce backends with secure payment systems. Whether it’s designing RESTful APIs or implementing complex features, I enjoy tackling challenges and delivering results that make a difference.`,
+    para3: "In the past, I’ve built SaaS platforms with multi-tenant architectures and contributed to tools that streamline workflows and improve collaboration. My work gives me the chance to mix creativity with problem-solving, and I love every bit of it.",
+    para4: "When I’m not coding, you’ll find me doing anything that doesn’t involve debugging at 2 AM.",
 }
 
 export const experience = [
