@@ -18,10 +18,10 @@ export const main = {
 
 export const about = {
     greet: "Hey there !",
-    para1: "Hi, I’m Tanuj, a Full-Stack Developer with a knack for building reliable and user-friendly web applications using the MERN stack. I’m passionate about turning ideas into functional, scalable, and efficient digital solutions.",
-    para2: `Right now, I’m working at MNB Soft Solution Pvt. Ltd., where I focus on creating everything from project management tools with real-time chat to e-commerce backends with secure payment systems. Whether it’s designing RESTful APIs or implementing complex features, I enjoy tackling challenges and delivering results that make a difference.`,
+    para1: "I’m a Full-Stack Developer with a knack for building reliable and user-friendly web applications using the MERN stack. I’m passionate about turning ideas into functional, scalable, and efficient digital solutions.",
+    para2: `Currently, I’m working at MNB Soft Solution Pvt. Ltd., where I focus on creating everything from project management tools with real-time chat to e-commerce backends with secure payment systems. Whether it’s designing RESTful APIs or implementing complex features, I enjoy tackling challenges and delivering results that make a difference.`,
     para3: "In the past, I’ve built SaaS platforms with multi-tenant architectures and contributed to tools that streamline workflows and improve collaboration. My work gives me the chance to mix creativity with problem-solving, and I love every bit of it.",
-    para4: "When I’m not coding, you’ll find me doing anything that doesn’t involve debugging at 2 AM.",
+    para4: "When I’m not coding, you can find me doing anything that doesn’t involve debugging at 2 AM.",
 }
 
 export const experience = [
@@ -178,6 +178,12 @@ export const projects = {
         github: "https://github.com/tanujojha/drumkit-",
         site: "https://tanujojha.github.io/drumkit-/"
     }
+}
+
+export const contactContent = {
+    para1: "Feel free to drop me a message if you have",
+    para2: "suggestions, ideas, or just want to collaborate!",
+    para3: "My inbox is open for anyone with exciting projects to share."
 }
 
 export const deets = {

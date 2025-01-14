@@ -25,9 +25,9 @@ function Footer() {
           null
           }
           <div className='fcontentdiv'>
-              <p className='fmadeby'>Made by Tanuj Ojha</p>
+              {/* <p className='fmadeby'>Made by Tanuj Ojha</p> */}
               {!isDesktop ? <p className='femail'>tanujojha2042@gmail.com</p>: null}
-              <h6 className='fcopr'>© Copyright 2023</h6>
+              <h6 className='fcopr'>© Tanuj Ojha 2023</h6>
           </div>
       </div>
     </div>
