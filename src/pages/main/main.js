@@ -23,7 +23,7 @@ function Main() {
                     <h2 className='mainwhatdo'>{main.whatdo}</h2>
                 </div>
                 <div className='mainwhoamidiv'>
-                    <p className='mainwhoami'>{main.whoami}</p>
+                    <p className='mainwhoami' style={{width: "60%"}}>{main.whoami}</p>
                     <p className='maincurrent'>{main.current}</p>
                 </div>
                 <div className='mainbtndiv'>

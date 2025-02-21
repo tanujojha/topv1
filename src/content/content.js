@@ -1,9 +1,12 @@
 export const main = {
     greet: "Hi, my name is",
     name: "Tanuj ojha.",
-    whatdo: "I build Web Apps.",
-    whoami: "I am a Full Stack developer specialized in building web based application.",
-    current: "Currently I am working MNB Soft Solution",
+    // whatdo: "I build Web Apps.",
+    whatdo: "I craft the online world.",
+    // whoami: "I am a Full Stack developer specialized in building web based application.",
+    whoami: "I’m a Full-Stack Developer who codes with passion, powered by caffeine and a knack for crafting scalable, efficient and intuitive applications.",
+    // current: "Currently building digital solutions that matter @MNB Soft Solution.",
+    current: "Crafting web magic and sipping coffee @MNB Soft Solution.",
     button: "Check out my Projects"
 }
 
@@ -187,7 +190,7 @@ export const contactContent = {
 }
 
 export const deets = {
-    resume: "https://drive.google.com/file/d/126sdJdQcSk6QObhiVWlSP_BhC8fOg10L/view?usp=drive_link",
+    resume: "https://drive.google.com/file/d/1vr72FPqy63jTdvNi9hjVH3o1bI-F3qpK/view?usp=sharing",
     github: "https://github.com/tanujojha",
     linkedin: "https://www.linkedin.com/in/tanujojha/"
 }
