@@ -1,0 +1,135 @@
+.tindog{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    position: relative;
+}
+
+.imgdivtindog{
+    max-width: 600px;
+    border-radius: 10px;
+}
+
+.tindogimg{
+    width: 40vw;
+    padding: 40px 0;
+    opacity: 0.7;
+    height: 40vh;
+    border-radius: 10px;
+    transition: var(--transition);
+}
+
+.tindogimg:hover{
+    opacity: 1;
+}
+
+
+.titletindog{
+    text-align: right;
+    color: var(--lightestSlate);
+    font-family: var(--fontSans);
+}
+
+.overlaptindog{
+    position: absolute;
+    right: 0;
+    top: 6vw;
+    width: 50%;
+
+}
+
+.overlapconttindog{
+    background-color: var(--colorLightNavy);
+    border-radius: 5px;
+    color: var(--light-slate);
+    font-family: var(--fontNunito);
+    text-align: right;
+    padding: 20px 15px;
+    /* font-size: large; */
+}
+
+.toolstindog{
+    display: flex;
+    justify-content: flex-end;
+    gap: 30px;
+    list-style: none;
+    padding: 0;
+    color: var(--light-slate);
+    font-family: var(--fontMono);
+
+}
+
+
+.linkstindog{
+    display: flex;
+    justify-content: flex-end;
+    gap: 30px;
+    list-style: none;
+    padding: 10px 0;
+    
+}
+
+.linkstindog a{
+    color: var(--light-slate);
+    transition: var(--transition);
+}
+
+.linkstindog a:hover{
+    color: var(--colorGreen);    
+}
+
+
+
+@media only screen and (max-width: 750px) {
+    .tindog{
+        width: 100%;
+        margin-top: 30px;
+        border: none;
+        position: relative;
+    }
+       
+    .tindogimg{
+        width: 100%;
+        padding: 0 0;
+        opacity: 0.1;
+        height: 49vh;
+        object-fit: cover;
+        /* margin: 0; */
+    }
+
+    .contdivtindog{
+        position: absolute;
+        width: 100%;
+        padding: 15px 10px;
+    }
+    
+    .titletindog{
+        text-align: left;
+    }
+    
+    .overlaptindog{
+        position: relative;
+        width: 90%;
+        margin-top: -40px;
+
+    }
+    
+    .overlapconttindog{
+        text-align: left;
+        width: 100%;
+        background-color: inherit;
+        font-size: large;
+    }
+    
+    .toolstindog{
+        justify-content: flex-start;
+    
+    }
+    
+    .linkstindog{
+        justify-content: flex-start;
+    }
+}
+
+

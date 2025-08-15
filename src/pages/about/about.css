@@ -26,6 +26,7 @@
 
 .cont-imgdivabout{
     display: flex;
+    gap: 50px;
 
 }
 
@@ -37,9 +38,16 @@
 }
 
 
+.imgdivabout{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 
 .profileabout{
-    width: 60%;
+    width: 80%;
     opacity: 0.7;
     box-shadow: 5px 5px 10px rgb(48, 61, 107);
     border-radius: 10px;

@@ -20,11 +20,8 @@ function About() {
                         <p className='para4contabout'>{about.para4}</p>
                     </div>
                     <div className='imgdivabout'>
-                        <div className='imginnerdivabout'>
                             <img className='profileabout' src="/assets/profile.jpg" alt="tanuj"/>
-                        </div>
-                        {/* <div className='effect'>
-                            
+                        {/* <div className='imginnerdivabout'>
                         </div> */}
                     </div>
                 </div>

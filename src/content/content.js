@@ -1,32 +1,45 @@
 export const main = {
     greet: "Hi, my name is",
     name: "Tanuj ojha.",
-    // whatdo: "I build Web Apps.",
     whatdo: "I craft the online world.",
-    // whoami: "I am a Full Stack developer specialized in building web based application.",
     whoami: "I’m a Full-Stack Developer who codes with passion, powered by caffeine and a knack for crafting scalable, efficient and intuitive applications.",
-    // current: "Currently building digital solutions that matter @MNB Soft Solution.",
     current: "Crafting web magic and sipping coffee @MNB Soft Solution.",
     button: "Check out my Projects"
 }
 
 // export const about = {
 //     greet: "Hey there !",
-//     para1: "I am Full Stack Developer and I create things that live on the internet.",
-//     para2: `I have done my graduation from Sharda University in B.Tech CSE.`,
-//     para3: "I started my journey in the Web development in 2022 when I decided to make a Social media website as my major project for the College.The journey started with the Web development boot camp from Udemy followed by building various projects including the College major project.Since then its been a great journey and still i am learning and growing in this field everyday. I am a very inquisitive person and i think that's the driving force behind my learning attitude.",
-//     para4: "I'm open to Job opportunities where I can contribute, learn and grow. If you have a good opportunity that matches my skills and experience then don't hesitate to contact me.",
-//     button: "Contact"
+//     para1: "I’m a Full-Stack Developer with a knack for building reliable and user-friendly web applications using the MERN stack. I’m passionate about turning ideas into functional, scalable, and efficient digital solutions.",
+//     para2: `Currently, I’m working at MNB Soft Solution Pvt. Ltd., where I focus on creating everything from project management tools with real-time chat to e-commerce backends with secure payment systems. Whether it’s designing RESTful APIs or implementing complex features, I enjoy tackling challenges and delivering results that make a difference.`,
+//     para3: "In the past, I’ve built SaaS platforms with multi-tenant architectures and contributed to tools that streamline workflows and improve collaboration. My work gives me the chance to mix creativity with problem-solving, and I love every bit of it.",
+//     para4: "When I’m not coding, you can find me doing anything that doesn’t involve debugging at 2 AM.",
 // }
-
 export const about = {
     greet: "Hey there !",
-    para1: "I’m a Full-Stack Developer with a knack for building reliable and user-friendly web applications using the MERN stack. I’m passionate about turning ideas into functional, scalable, and efficient digital solutions.",
-    para2: `Currently, I’m working at MNB Soft Solution Pvt. Ltd., where I focus on creating everything from project management tools with real-time chat to e-commerce backends with secure payment systems. Whether it’s designing RESTful APIs or implementing complex features, I enjoy tackling challenges and delivering results that make a difference.`,
-    para3: "In the past, I’ve built SaaS platforms with multi-tenant architectures and contributed to tools that streamline workflows and improve collaboration. My work gives me the chance to mix creativity with problem-solving, and I love every bit of it.",
+    para1: `I’m a Full-Stack Developer with a passion for turning ideas into powerful, production-ready applications. Using the MERN stack as my toolkit, I’ve built everything from **multi-tenant SaaS platforms** to **real-time chat systems** to **secure e-commerce backends**.`,
+    para2: `Right now, I’m crafting scalable systems at MNB Soft Solution Pvt. Ltd., where my day can go from architecting database structures to perfecting a drag-and-drop Kanban board… and sometimes debugging things that “shouldn’t” break.`,
+    para3: `I thrive on projects where performance, user experience, and clean architecture all meet. In my past work, I’ve tackled complex role-based permissions, real-time notifications, and multi-industry dashboards that adapt dynamically to client needs.`,
     para4: "When I’m not coding, you can find me doing anything that doesn’t involve debugging at 2 AM.",
 }
 
+// export const experience = [
+//     {
+//         id: 0,
+//         name: "MNB SOFT SOLUTION",
+//         duration: "July 2023 - Present",
+//         companyUrl: "https://mnbsoft.com/",
+//         designation: "Full-Stack Developer",
+//         content: [
+//             `Develop, maintain and ship high-quality and robust production code for a diverse array of projects for the company and 
+//             clients including MNB CRM, MNB Project Management, MNB School Management, CentralizedExchange and numerous others.`,
+
+//             `Collaborate with designers, project managers, and other engineers to transform creative concepts into production realities.`,
+
+//             `Implemented seamless chat functionality using 'socket.io' to facilitate communication among administrators, employees and clients within the MNB Project Management system.`,
+//         ]
+
+//     },
+// ]
 export const experience = [
     {
         id: 0,
@@ -35,12 +48,12 @@ export const experience = [
         companyUrl: "https://mnbsoft.com/",
         designation: "Full-Stack Developer",
         content: [
-            `Develop, maintain and ship high-quality and robust production code for a diverse array of projects for the company and 
-            clients including MNB CRM, MNB Project Management, MNB School Management, CentralizedExchange and numerous others.`,
-
-            `Collaborate with designers, project managers, and other engineers to transform creative concepts into production realities.`,
-
-            `Implemented seamless chat functionality using 'socket.io' to facilitate communication among administrators, employees and clients within the MNB Project Management system.`,
+            `Designed and maintained scalable multi-tenant SaaS architectures used by businesses across multiple industries.`,
+            `Built real-time chat, notifications, and activity tracking systems using Socket.io & Web Push API.`,
+            `Developed secure, role-based dashboards for admins, employees, and clients with JWT authentication.`,
+            `Engineered backend services for e-commerce, including secure payment integration (PhonePe) and order lifecycle management.`,
+            `Managed deployments on AWS EC2 with Nginx + PM2, ensuring smooth CI/CD and server monitoring.`,
+            `Collaborated with designers, PMs, and developers to deliver projects that meet both client goals and technical best practices.`,
         ]
 
     },
@@ -183,6 +196,57 @@ export const projects = {
     }
 }
 
+
+export const newProjects = {
+    taskflier: {
+        img: "/assets/projects/taskflier.png",
+        desc: `Taskflier is a comprehensive SaaS project management platform with a multi-tenant 
+                architecture for client isolation. The platform utilizes role-based access control with 
+                dedicated admin, employee, and client dashboards.`,
+        tool1: "MERN",
+        tool2: "JWT",
+        tool3: "socket.io",
+        github: "https://github.com/tanujojha/ArtSocials",
+        site: "https://taskflier.com"
+    },
+    mnbMart: {
+        img: "/assets/projects/mnbmart.png",
+        desc: `MNB Mart is a feature-rich multi-vendor Ecommerce platform. Built with Node.js and MongoDB for performance and flexibility. 
+                Integrated secure payments (PhonePe) and implemented a real-time order tracking 
+                system for enhanced customer experience. MNB Mart boasts a user-friendly interface 
+                with comprehensive features, ensuring a seamless and secure shopping experience 
+                for customers. `,
+        tool1: "MERN",
+        tool2: "JWT",
+        tool3: "socket.io",
+        github: "https://github.com/tanujojha/ArtSocials",
+        site: "https://mnbmart.com"
+    },
+    mnbsoft: {
+        img: "/assets/projects/mnbsoft.png",
+        desc: `Taskflier is a comprehensive SaaS project management platform with a multi-tenant 
+                architecture for client isolation. The platform utilizes role-based access control with 
+                dedicated admin, employee, and client dashboards.`,
+        tool1: "React.js",
+        tool2: "node.js",
+        tool3: "express.js",
+        github: "https://github.com/tanujojha/ArtSocials",
+        site: "https://artsocials.netlify.app/"
+    },
+    mnbschool: {
+        img: "/assets/projects/artsocials.png",
+        desc: `Taskflier is a comprehensive SaaS project management platform with a multi-tenant 
+                architecture for client isolation. The platform utilizes role-based access control with 
+                dedicated admin, employee, and client dashboards.`,
+        tool1: "MERN",
+        tool2: "JWT",
+        tool3: "socket.io",
+        github: "https://github.com/tanujojha/ArtSocials",
+        site: "https://artsocials.netlify.app/"
+    },
+    
+}
+
 export const contactContent = {
     para1: "Feel free to drop me a message if you have",
     para2: "suggestions, ideas, or just want to collaborate!",
@@ -190,7 +254,7 @@ export const contactContent = {
 }
 
 export const deets = {
-    resume: "https://drive.google.com/file/d/1vr72FPqy63jTdvNi9hjVH3o1bI-F3qpK/view?usp=sharing",
+    resume: "https://drive.google.com/file/d/1fSQEy3fOTQRpvUFMpNpYidK4VJ310CH1/view?usp=drive_link",
     github: "https://github.com/tanujojha",
     linkedin: "https://www.linkedin.com/in/tanujojha/"
 }

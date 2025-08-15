@@ -1,0 +1,132 @@
+.artsocials{
+    width: 100%;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    margin-top: 50px;
+    position: relative;
+}
+
+.imgdivartsls{
+    max-width: 600px;
+} 
+
+.artslsimg{
+    width: 40vw;
+    padding: 40px 0;
+    opacity: 0.7;
+    height: 40vh;
+    border-radius: 10px;
+    transition: var(--transition);
+
+}
+
+.artslsimg:hover{
+    opacity: 1;
+}
+
+
+.titleartsls{
+    text-align: left;
+    color: var(--lightestSlate);
+    font-family: var(--fontSans);
+}
+
+.overlaartsls{
+    position: absolute;
+    left: 0;
+    top: 6vw;
+    width: 50%;
+}
+
+.overlapcontartsls{
+    background-color: var(--colorLightNavy);
+    border-radius: 5px;
+    color: var(--light-slate);
+    font-family: var(--fontNunito);
+    text-align: left;
+    padding: 20px 15px;
+}
+
+.toolsartsls{
+    display: flex;
+    justify-content: flex-start;
+    gap: 30px;
+    list-style: none;
+    padding: 0;
+    color: var(--light-slate);
+    font-family: var(--fontMono);
+
+}
+
+
+.linksartsls{
+    display: flex;
+    justify-content: flex-start;
+    gap: 30px;
+    list-style: none;
+    padding: 10px 0;
+}
+
+
+.linksartsls a{
+    color: var(--light-slate);
+    transition: var(--transition);
+}
+
+.linksartsls a:hover{
+    color: var(--colorGreen);
+    
+}
+
+
+
+@media only screen and (max-width: 750px) {
+    .artsocials{
+        width: 100%;
+        margin-top: 50px;
+        border: none;
+        position: relative;
+    }
+        
+    .artslsimg{
+        width: 100%;
+        padding: 0 0;
+        opacity: 0.1;
+        height: 52vh;
+        object-fit: cover;
+    }
+
+    .contdivartsls{
+        position: absolute;
+        left: 5px;
+        width: 100%;
+        padding: 1px 10px;
+    }
+    
+    .titleartsls{
+        text-align: left;
+    }
+    
+    .overlaartsls{
+        position: relative;
+        width: 80%;
+        margin-top: -40px;
+    }
+    
+    .overlapcontartsls{
+        text-align: left;
+        width: 100%;
+        background-color: inherit;
+        font-size: large;
+    }
+    
+    .toolsartsls{
+        justify-content: flex-start;
+    
+    }
+    
+    .linksartsls{
+        justify-content: flex-start;
+    }
+  }

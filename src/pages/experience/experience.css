@@ -32,12 +32,12 @@
 }
 
 .innercontexpdiv{
-    width: 90%;
+    /* width: 90%; */
     display: flex;
 }
 
 .leftPaneexp{
-    width: 100%;
+    width: 40%;
 }
 
 #compnamebtn{
@@ -77,7 +77,7 @@
 }
 
 .rightcontdivinner{
-    width: 80%;
+    /* width: 80%; */
     margin-top: 20px;
 }
 
@@ -165,6 +165,7 @@
         justify-content: center;
         gap: 40px;
         margin-bottom: 20px;
+        width: 100%;
 
     }
     #compnamebtn{
