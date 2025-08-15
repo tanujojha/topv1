@@ -16,8 +16,8 @@ export const main = {
 // }
 export const about = {
     greet: "Hey there !",
-    para1: `I’m a Full-Stack Developer with a passion for turning ideas into powerful, production-ready applications. Using the MERN stack as my toolkit, I’ve built everything from **multi-tenant SaaS platforms** to **real-time chat systems** to **secure e-commerce backends**.`,
-    para2: `Right now, I’m crafting scalable systems at MNB Soft Solution Pvt. Ltd., where my day can go from architecting database structures to perfecting a drag-and-drop Kanban board… and sometimes debugging things that “shouldn’t” break.`,
+    para1: `I’m a Full-Stack Developer with a passion for turning ideas into powerful, production-ready applications. Using the MERN stack as my toolkit, I’ve built projects ranging from multi-tenant SaaS platforms to real-time chat systems and secure e-commerce backends.`,
+    para2: `Right now, I’m crafting scalable systems at MNB Soft Solution Pvt. Ltd., where my day can go from architecting database structures to perfecting a drag-and-drop Kanban board… and sometimes debugging things that shouldn’t break.`,
     para3: `I thrive on projects where performance, user experience, and clean architecture all meet. In my past work, I’ve tackled complex role-based permissions, real-time notifications, and multi-industry dashboards that adapt dynamically to client needs.`,
     para4: "When I’m not coding, you can find me doing anything that doesn’t involve debugging at 2 AM.",
 }
@@ -60,6 +60,12 @@ export const experience = [
 ]
 
 
+// Frontend: React.js, Next.js, Redux Toolkit, Tailwind CSS, MUI
+// Backend: Node.js, Express.js, REST APIs, Socket.io, JWT Auth
+// Databases: MongoDB (multi-tenant), SQL
+// DevOps & Tools: Git, AWS EC2/S3, PM2, Nginx, Netlify, Vercel, Linux CLI
+// Specialties: Multi-Tenant Architecture, Real-Time Systems, Role-Based Access Control (RBAC), Scalable API Design
+
 export const skills = [
     {
         "title": "MongoDB",
@@ -72,8 +78,18 @@ export const skills = [
         "link": "https://expressjs.com/",
     },
     {
-        "title": "React",
+        "title": "React.js",
         "img": "/assets/skills/react1.png",
+        "link": "https://react.dev/",
+    },
+    {
+        "title": "Next.js",
+        "img": "/assets/skills/next.jpg",
+        "link": "https://react.dev/",
+    },
+    {
+        "title": "Redux",
+        "img": "/assets/skills/redux.png",
         "link": "https://react.dev/",
     },
     {
@@ -200,25 +216,33 @@ export const projects = {
 export const newProjects = {
     taskflier: {
         img: "/assets/projects/taskflier.png",
-        desc: `Taskflier is a comprehensive SaaS project management platform with a multi-tenant 
-                architecture for client isolation. The platform utilizes role-based access control with 
-                dedicated admin, employee, and client dashboards.`,
+        // desc: `Taskflier is a comprehensive SaaS project management platform with a multi-tenant 
+        //         architecture for client isolation. The platform utilizes role-based access control with 
+        //         dedicated admin, employee, and client dashboards.`,
+        desc: `TaskFlier is a fully-fledged multi-tenant SaaS platform built for managing projects, 
+               HR workflows, and client communication. Features include: customizable dashboards per 
+               industry, drag-and-drop Kanban boards, performance analytics, role-based access control, and push notifications.`,
         tool1: "MERN",
         tool2: "JWT",
         tool3: "socket.io",
+        tool4: "DnD Kit",
+        tool5: "Web Push API",
         github: "https://github.com/tanujojha/ArtSocials",
         site: "https://taskflier.com"
     },
     mnbMart: {
         img: "/assets/projects/mnbmart.png",
-        desc: `MNB Mart is a feature-rich multi-vendor Ecommerce platform. Built with Node.js and MongoDB for performance and flexibility. 
-                Integrated secure payments (PhonePe) and implemented a real-time order tracking 
-                system for enhanced customer experience. MNB Mart boasts a user-friendly interface 
-                with comprehensive features, ensuring a seamless and secure shopping experience 
-                for customers. `,
+        // desc: `MNB Mart is a feature-rich multi-vendor Ecommerce platform. Built with Node.js and MongoDB for performance and flexibility. 
+        //         Integrated secure payments (PhonePe) and implemented a real-time order tracking 
+        //         system for enhanced customer experience. MNB Mart boasts a user-friendly interface 
+        //         with comprehensive features, ensuring a seamless and secure shopping experience 
+        //         for customers. `,
+        desc: `A feature-rich e-commerce platform supporting multiple vendors, secure order processing, and real-time order tracking.  
+                Integrated with PhonePe for payments, designed scalable APIs for products, carts, and vendor dashboards, and implemented role-based permissions.`,
         tool1: "MERN",
         tool2: "JWT",
-        tool3: "socket.io",
+        tool3: "PhonePe API",
+        tool4: "Multer",
         github: "https://github.com/tanujojha/ArtSocials",
         site: "https://mnbmart.com"
     },

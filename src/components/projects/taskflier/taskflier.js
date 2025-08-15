@@ -23,6 +23,8 @@ function Taskflier() {
                     <li className='tool1tindog'>{newProjects.taskflier.tool1}</li>
                     <li className='tool2tindog'>{newProjects.taskflier.tool2}</li>
                     <li className='tool3tindog'>{newProjects.taskflier.tool3}</li>
+                    <li className='tool3tindog'>{newProjects.taskflier.tool4}</li>
+                    <li className='tool3tindog'>{newProjects.taskflier.tool5}</li>
                 </ul>
                 <ul className='linkstindog'>
                     <li className='gitlinktindog'><a href={newProjects.taskflier.github} target='_blank' rel='noreferrer'><GithubLogo/></a></li>

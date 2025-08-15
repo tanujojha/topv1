@@ -21,8 +21,6 @@ function About() {
                     </div>
                     <div className='imgdivabout'>
                             <img className='profileabout' src="/assets/profile.jpg" alt="tanuj"/>
-                        {/* <div className='imginnerdivabout'>
-                        </div> */}
                     </div>
                 </div>
             </div>
